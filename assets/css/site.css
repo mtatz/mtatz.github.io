@@ -7,6 +7,7 @@
   --award-bg: #fff6d6;
   --award-fg: #7a5a00;
   --thumb-bg: #f2f2f2;
+  --oa: #2e7d32;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -18,6 +19,7 @@
     --award-bg: #3a3218;
     --award-fg: #f2d27a;
     --thumb-bg: #24272b;
+    --oa: #81c784;
   }
 }
 
@@ -28,6 +30,7 @@ body {
   background: var(--bg);
   color: var(--fg);
   font: 17px/1.55 "Source Sans 3", "Helvetica Neue", Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
 }
 a { color: var(--accent); text-decoration: none; }
 a:hover { text-decoration: underline; }
@@ -49,7 +52,7 @@ section { padding: 2rem 0; border-bottom: 1px solid var(--line); }
 section:last-child { border-bottom: 0; }
 
 .profile { display: grid; grid-template-columns: 220px 1fr; gap: 2.5rem; }
-.profile-photo { width: 100%; border-radius: 4px; display: block; }
+.profile-photo { width: 100%; height: auto; border-radius: 4px; display: block; }
 .profile-links { list-style: none; padding: 0; margin: 1rem 0 0; }
 .profile-links li { padding: .2rem 0; border-bottom: 1px solid var(--line); }
 .profile-main h1 { font-size: 2.6rem; margin: 0; line-height: 1.1; }
@@ -64,6 +67,7 @@ h3.year { font-size: 1.3rem; color: var(--muted); margin: 1.8rem 0 .6rem; border
   width: 200px; height: 125px; object-fit: cover; border-radius: 4px;
   background: var(--thumb-bg); display: block; border: 1px solid var(--line);
 }
+.pub-body { min-width: 0; }
 .pub-body p { margin: 0 0 .2rem; }
 .pub-title { font-weight: 600; font-size: 1.05rem; line-height: 1.35; }
 .pub-title a { color: var(--fg); }
@@ -84,6 +88,31 @@ h3.year { font-size: 1.3rem; color: var(--muted); margin: 1.8rem 0 .6rem; border
 }
 .pub-award .pub-thumb img { border-color: var(--award-fg); }
 
+.news { list-style: none; padding: 0; margin: 0; }
+.news li { display: grid; grid-template-columns: 5.5rem 1fr; gap: .8rem; padding: .35rem 0; border-bottom: 1px solid var(--line); }
+.news li:last-child { border-bottom: 0; }
+.news time { color: var(--muted); font-family: Oswald, sans-serif; letter-spacing: .03em; }
+
+.venue-badge {
+  display: inline-block; vertical-align: .1em; margin-right: .25rem; padding: 0 .4rem;
+  font: 500 .72rem/1.5 Oswald, sans-serif; letter-spacing: .05em; text-transform: uppercase;
+  color: var(--bg); background: var(--accent); border-radius: 3px;
+}
+.oa {
+  font-size: .78rem; font-weight: 600; color: var(--oa); border: 1px solid var(--oa);
+  border-radius: 3px; padding: 0 .35rem; margin-left: .2rem; font-style: normal;
+}
+.cite-btn, .copy-btn {
+  font: inherit; font-size: .85rem; cursor: pointer; background: none; color: var(--accent);
+  border: 1px solid var(--accent); border-radius: 3px; padding: .05rem .55rem; margin: .3rem .4rem 0 0;
+}
+.cite-btn[aria-expanded="true"] { background: var(--accent); color: var(--bg); }
+.bib { margin-top: .5rem; }
+.bib pre {
+  margin: 0 0 .3rem; padding: .7rem .8rem; overflow-x: auto; font-size: .8rem; line-height: 1.4;
+  background: var(--thumb-bg); border: 1px solid var(--line); border-radius: 4px;
+}
+
 .plain { padding-left: 1.2rem; }
 .plain li { margin-bottom: .5rem; }
 
@@ -94,5 +123,6 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 2r
   .profile-side { display: grid; grid-template-columns: 140px 1fr; gap: 1rem; align-items: start; }
   .profile-links { margin: 0; }
   .pub { grid-template-columns: 1fr; gap: .6rem; }
+  .news li { grid-template-columns: 1fr; gap: 0; }
   .pub-thumb img { width: 100%; height: auto; aspect-ratio: 16 / 10; }
 }

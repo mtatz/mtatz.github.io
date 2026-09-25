@@ -3,7 +3,7 @@ layout: default
 ---
 <section class="profile">
   <div class="profile-side">
-    <img class="profile-photo" src="{{ '/assets/images/profile/profile.png' | relative_url }}" alt="Portrait of Markus Tatzgern">
+    <img class="profile-photo" src="{{ '/assets/images/profile/profile.webp' | relative_url }}" alt="Portrait of Markus Tatzgern" width="220" height="293">
     <ul class="profile-links">
       {%- for l in site.data.links %}
       <li><a href="{{ l.url }}">{{ l.name }}</a></li>
@@ -22,6 +22,16 @@ layout: default
 
     <p>I contribute actively to the scientific community as Program Committee member and reviewer, and served as Program Chair of IEEE ISMAR in 2024 and 2025. I currently serve as Treasurer of ACM SIGCHI Austria. Beyond academia, I am committed to outreach, engaging with industry, media, and the public to advance understanding and adoption of immersive technologies.</p>
   </div>
+</section>
+
+<section id="news">
+  <h2>News</h2>
+  <ul class="news">
+    {%- for n in site.data.news %}
+    {%- assign d = n.date | append: "-01" %}
+    <li><time datetime="{{ n.date }}">{{ d | date: "%b %Y" }}</time> <span>{{ n.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span></li>
+    {%- endfor %}
+  </ul>
 </section>
 
 <section id="publications">

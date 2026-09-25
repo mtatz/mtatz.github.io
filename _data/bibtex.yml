@@ -1,0 +1,508 @@
+# BibTeX per publication id. Generated from Crossref; manual edits are kept.
+2026_teamspirit: |-
+  @article{paraschivoiu2026where,
+    author = {Paraschivoiu, Irina and Layer-Wagner, Thomas and Neundlinger, Klaus and Rack, Simone and Tatzgern, Markus},
+    title = {Where's the Team Spirit? An Exploratory Study on Team Development Through Co-located {Tablet-Based} {VR}},
+    journal = {Proceedings of the ACM on Human-Computer Interaction},
+    volume = {10},
+    number = {6},
+    pages = {1--31},
+    year = {2026},
+    month = sep,
+    publisher = {Association for Computing Machinery},
+    issn = {2573-0142},
+    doi = {10.1145/3817040},
+    url = {https://doi.org/10.1145/3817040}
+  }
+2026_arotm_chi_ea: |-
+  @inproceedings{stefanidi2026next,
+    author = {Stefanidi, Helen and van Rheden, Vincent and He, Linjia and Adiwangsa, Michelle and Sünderkamp, Jan-Hendrik and Itzlinger, Alina and Matviienko, Andrii and Williamson, Julie R. and Oakley, Ian and Tatzgern, Markus and Meschtscherjakov, Alexander},
+    title = {Next Steps for Augmented Reality {On-the-Move}: Challenges and Opportunities},
+    booktitle = {Proceedings of the Extended Abstracts of the 2026 CHI Conference on Human Factors in Computing Systems},
+    series = {CHI EA '26},
+    pages = {1--9},
+    year = {2026},
+    month = apr,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Barcelona, Spain},
+    doi = {10.1145/3772363.3778775},
+    url = {https://doi.org/10.1145/3772363.3778775}
+  }
+2025_labsidewalk: |-
+  @inproceedings{sunderkamp2025from,
+    author = {Sünderkamp, Jan-Hendrik and Stefanidi, Helen and Meschtscherjakov, Alexander and Tatzgern, Markus},
+    title = {From Lab to Sidewalk: Exploring {AR} Interaction Techniques Outdoors and in Motion using {Fitts}' Law},
+    booktitle = {Proceedings of the 2025 31st ACM Symposium on Virtual Reality Software and Technology},
+    series = {VRST '25},
+    pages = {1--11},
+    year = {2025},
+    month = nov,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Montreal QC Canada},
+    doi = {10.1145/3756884.3766006},
+    url = {https://doi.org/10.1145/3756884.3766006}
+  }
+2025_spatialmouse: |-
+  @inproceedings{hubenschmid2025spatialmouse,
+    author = {Hubenschmid, Sebastian and Zagermann, Johannes and Erb, Robin and Feuchtner, Tiare and Grubert, Jens and Tatzgern, Markus and Schmalstieg, Dieter and Reiterer, Harald},
+    title = {{SpatialMouse}: A Hybrid Pointing Device for Seamless Interaction Across {2D} and {3D} Spaces},
+    booktitle = {Proceedings of the 2025 31st ACM Symposium on Virtual Reality Software and Technology},
+    series = {VRST '25},
+    pages = {1--13},
+    year = {2025},
+    month = nov,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Montreal QC Canada},
+    doi = {10.1145/3756884.3766047},
+    url = {https://doi.org/10.1145/3756884.3766047}
+  }
+2025_hybridinput: |-
+  @inproceedings{hubenschmid2025revisiting,
+    author = {Hubenschmid, Sebastian and Zagermann, Johannes and Elmqvist, Niklas and Feuchtner, Tiare and Grubert, Jens and Tatzgern, Markus and Schmalstieg, Dieter and Reiterer, Harald},
+    title = {Revisiting Hybrid Input Devices for Immersive Analytics},
+    booktitle = {2025 IEEE Conference on Human Factors in Immersive Analytics (HFIA)},
+    pages = {29--33},
+    year = {2025},
+    month = nov,
+    publisher = {IEEE},
+    location = {Vienna, Austria},
+    doi = {10.1109/hfia68651.2025.00011},
+    url = {https://doi.org/10.1109/hfia68651.2025.00011}
+  }
+2025_mobileepr: |-
+  @article{emsenhuber2025see,
+    author = {Emsenhuber, Gerlinde and Langlotz, Tobias and Kalkofen, Denis and Tatzgern, Markus},
+    title = {See what I Mean? Mobile {Eye-Perspective} Rendering for Optical {See-Through} {Head-Mounted} Displays},
+    journal = {IEEE Transactions on Visualization and Computer Graphics},
+    volume = {31},
+    number = {11},
+    pages = {9603--9613},
+    year = {2025},
+    month = nov,
+    publisher = {IEEE},
+    issn = {1077-2626},
+    doi = {10.1109/tvcg.2025.3616739},
+    url = {https://doi.org/10.1109/tvcg.2025.3616739}
+  }
+2025_arkward: |-
+  @article{stefanidi2025you,
+    author = {Stefanidi, Helen and Sünderkamp, Jan-Hendrik and Tatzgern, Markus and Itzlinger, Alina and Meschtscherjakov, Alexander},
+    title = {You're making things {AR-kward}: Exploring Augmented Reality {In-the-Wild} {MHCI041}},
+    journal = {Proceedings of the ACM on Human-Computer Interaction},
+    volume = {9},
+    number = {5},
+    pages = {1--24},
+    year = {2025},
+    month = sep,
+    publisher = {Association for Computing Machinery},
+    issn = {2573-0142},
+    doi = {10.1145/3743740},
+    url = {https://doi.org/10.1145/3743740}
+  }
+2025_xmas: |-
+  @inproceedings{stefanidi2025exploring,
+    author = {Stefanidi, Helen and Sünderkamp, Jan-Hendrik and Itzlinger, Alina and Tatzgern, Markus and Meschtscherjakov, Alexander},
+    title = {Exploring {AR} {In-the-Wild}: An Autoethnographic Study at a {Christmas} Market},
+    booktitle = {Companion Publication of the 2025 ACM Designing Interactive Systems Conference},
+    series = {DIS '25},
+    pages = {560--566},
+    year = {2025},
+    month = jul,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Funchal Portugal},
+    doi = {10.1145/3715668.3736368},
+    url = {https://doi.org/10.1145/3715668.3736368}
+  }
+2025_retailing: |-
+  @article{kinzinger2025interactive,
+    author = {Kinzinger, Arno and Steiner, Winfried J. and Tatzgern, Markus and Vallaster, Christine},
+    title = {Interactive product presentation in an immersive environment: The influence of functional control on hedonic aspects},
+    journal = {Journal of Retailing and Consumer Services},
+    volume = {83},
+    pages = {104156},
+    year = {2025},
+    month = mar,
+    publisher = {Elsevier},
+    issn = {0969-6989},
+    doi = {10.1016/j.jretconser.2024.104156},
+    url = {https://doi.org/10.1016/j.jretconser.2024.104156}
+  }
+2025_adaptiveoutdoor: |-
+  @inproceedings{stefanidi2025bringing,
+    author = {Stefanidi, Helen and Tatzgern, Markus and Itzlinger, Alina and Meschtscherjakov, Alexander},
+    title = {Bringing Adaptive {On-the-Move} {AR} to Outdoor Environments},
+    booktitle = {ACM CHI Conference on Human Factors in Computing Systems (CHI), Workshop on Artificial Intelligence and Human Interfaces},
+    year = {2025}
+  }
+2024_passive_haptics: |-
+  @inproceedings{tatzgern2024passive,
+    author = {Tatzgern, Markus and Fasching, David and Gómez, Vivian and Calvache, Sebastián and Figueroa, Pablo},
+    title = {Passive Haptic Feedback for Control Elements in Virtual Reality},
+    booktitle = {2024 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)},
+    pages = {749--750},
+    year = {2024},
+    month = mar,
+    publisher = {IEEE},
+    location = {Orlando, FL, USA},
+    doi = {10.1109/vrw62533.2024.00171},
+    url = {https://doi.org/10.1109/vrw62533.2024.00171}
+  }
+2024_mobilearsurvey: |-
+  @article{stefanidi2024augmented,
+    author = {Stefanidi, Helen and Tatzgern, Markus and Meschtscherjakov, Alexander},
+    title = {Augmented Reality on the Move: A Systematic Literature Review for Vulnerable Road Users},
+    journal = {Proceedings of the ACM on Human-Computer Interaction},
+    volume = {8},
+    number = {MHCI},
+    pages = {1--30},
+    year = {2024},
+    month = sep,
+    publisher = {Association for Computing Machinery},
+    issn = {2573-0142},
+    doi = {10.1145/3676490},
+    url = {https://doi.org/10.1145/3676490}
+  }
+2024_immersive_authoring: |-
+  @inproceedings{skreinig2024immersive,
+    author = {Skreinig, Lucchas Ribeiro and Mohr, Peter and Berger, Blanca and Tatzgern, Markus and Schmalstieg, Dieter and Kalkofen, Denis},
+    title = {Immersive Authoring by Demonstration of Industrial Procedures},
+    booktitle = {2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    pages = {1293--1302},
+    year = {2024},
+    month = oct,
+    publisher = {IEEE},
+    location = {Bellevue, WA, USA},
+    doi = {10.1109/ismar62088.2024.00146},
+    url = {https://doi.org/10.1109/ismar62088.2024.00146}
+  }
+2024_xr_prototyping: |-
+  @inproceedings{plumer2024xr,
+    author = {Plümer, Jan Hendrik and Yu, Kevin and Eck, Ulrich and Kalkofen, Denis and Steininger, Philipp and Navab, Nassir and Tatzgern, Markus},
+    title = {{XR} Prototyping of Mixed Reality Visualizations: Compensating Interaction Latency for a Medical Imaging Robot},
+    booktitle = {2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    pages = {1--10},
+    year = {2024},
+    month = oct,
+    publisher = {IEEE},
+    location = {Bellevue, WA, USA},
+    doi = {10.1109/ismar62088.2024.00014},
+    url = {https://doi.org/10.1109/ismar62088.2024.00014}
+  }
+2023_CHI_epr_viewman: |-
+  @inproceedings{emsenhuber2023eye,
+    author = {Emsenhuber, Gerlinde and Langlotz, Tobias and Kalkofen, Denis and Sutton, Jonathan and Tatzgern, Markus},
+    title = {{Eye-Perspective} View Management for Optical {See-Through} {Head-Mounted} Displays},
+    booktitle = {Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems},
+    series = {CHI '23},
+    pages = {1--16},
+    year = {2023},
+    month = apr,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Hamburg Germany},
+    doi = {10.1145/3544548.3581059},
+    url = {https://doi.org/10.1145/3544548.3581059}
+  }
+2023_xr_prototyping: |-
+  @inproceedings{plumer2023framework,
+    author = {Plümer, Jan Hendrik and Tatzgern, Markus},
+    title = {Towards a Framework for Validating {XR} Prototyping for Performance Evaluations of Simulated User Experiences},
+    booktitle = {2023 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    pages = {810--819},
+    year = {2023},
+    month = oct,
+    publisher = {IEEE},
+    location = {Sydney, Australia},
+    doi = {10.1109/ismar59233.2023.00096},
+    url = {https://doi.org/10.1109/ismar59233.2023.00096}
+  }
+2022_vr_epr_poster: |-
+  @inproceedings{emsenhuber2022eye,
+    author = {Emsenhuber, Gerlinde and Domhardt, Michael and Langlotz, Tobias and Kalkofen, Denis and Tatzgern, Markus},
+    title = {Towards {Eye-Perspective} Rendering for Optical {See-Through} {Head-Mounted} Displays},
+    booktitle = {2022 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)},
+    pages = {640--641},
+    year = {2022},
+    month = mar,
+    publisher = {IEEE},
+    location = {Christchurch, New Zealand},
+    doi = {10.1109/vrw55335.2022.00171},
+    url = {https://doi.org/10.1109/vrw55335.2022.00171}
+  }
+2022_lse_hse_vr_shopping: |-
+  @article{kinzinger2022comparing,
+    author = {Kinzinger, Arno and Steiner, Winfried and Tatzgern, Markus and Vallaster, Christine},
+    title = {Comparing low sensory enabling (<scp>{LSE}</scp>) and high sensory enabling (<scp>{HSE}</scp>) virtual product presentation modes in e‐commerce},
+    journal = {Information Systems Journal},
+    volume = {32},
+    number = {5},
+    pages = {1034--1063},
+    year = {2022},
+    month = mar,
+    publisher = {Wiley},
+    issn = {1350-1917},
+    doi = {10.1111/isj.12382},
+    url = {https://doi.org/10.1111/isj.12382}
+  }
+2022_CHI_aires_mask: |-
+  @inproceedings{tatzgern2022airres,
+    author = {Tatzgern, Markus and Domhardt, Michael and Wolf, Martin and Cenger, Michael and Emsenhuber, Gerlinde and Dinic, Radomir and Gerner, Nathalie and Hartl, Arnulf},
+    title = {{AirRes} Mask: A Precise and Robust Virtual Reality Breathing Interface Utilizing Breathing Resistance as Output Modality},
+    booktitle = {CHI Conference on Human Factors in Computing Systems},
+    series = {CHI '22},
+    pages = {1--14},
+    year = {2022},
+    month = apr,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {New Orleans LA USA},
+    doi = {10.1145/3491102.3502090},
+    url = {https://doi.org/10.1145/3491102.3502090}
+  }
+2021_vr_interaction_fidelity: |-
+  @inproceedings{tatzgern2021exploring,
+    author = {Tatzgern, Markus and Birgmann, Christoph},
+    title = {Exploring Input Approximations for Control Panels in Virtual Reality},
+    booktitle = {2021 IEEE Virtual Reality and 3D User Interfaces (VR)},
+    pages = {1--9},
+    year = {2021},
+    month = mar,
+    publisher = {IEEE},
+    location = {Lisboa, Portugal},
+    doi = {10.1109/vr50410.2021.00092},
+    url = {https://doi.org/10.1109/vr50410.2021.00092}
+  }
+2020_uist_video_annotated_ar: |-
+  @inproceedings{yamaguchi2020video,
+    author = {Yamaguchi, Masahiro and Mori, Shohei and Mohr, Peter and Tatzgern, Markus and Stanescu, Ana and Saito, Hideo and Kalkofen, Denis},
+    title = {{Video-Annotated} Augmented Reality Assembly Tutorials},
+    booktitle = {Proceedings of the 33rd Annual ACM Symposium on User Interface Software and Technology},
+    series = {UIST '20},
+    pages = {1010--1022},
+    year = {2020},
+    month = oct,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Virtual Event USA},
+    doi = {10.1145/3379337.3415819},
+    url = {https://doi.org/10.1145/3379337.3415819}
+  }
+2019_chi_track_cap: |-
+  @inproceedings{mohr2019trackcap,
+    author = {Mohr, Peter and Tatzgern, Markus and Langlotz, Tobias and Lang, Andreas and Schmalstieg, Dieter and Kalkofen, Denis},
+    title = {{TrackCap}},
+    booktitle = {Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems},
+    series = {CHI '19},
+    pages = {1--11},
+    year = {2019},
+    month = may,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Glasgow Scotland Uk},
+    doi = {10.1145/3290605.3300815},
+    url = {https://doi.org/10.1145/3290605.3300815}
+  }
+2019_curator_dioramas: |-
+  @article{harrington2019augmented,
+    author = {Harrington, Maria C. R. and Tatzgern, Markus and Langer, Tom and Wenzel, John W.},
+    title = {Augmented Reality Brings the Real World into {Natural} {History} Dioramas with Data Visualizations and Bioacoustics at the {Carnegie} {Museum} of {Natural} {History}},
+    journal = {Curator: The Museum Journal},
+    volume = {62},
+    number = {2},
+    pages = {177--193},
+    year = {2019},
+    month = apr,
+    publisher = {Wiley},
+    issn = {0011-3069},
+    doi = {10.1111/cura.12308},
+    url = {https://doi.org/10.1111/cura.12308}
+  }
+2017_chi_video_retargeting: |-
+  @inproceedings{mohr2017retargeting,
+    author = {Mohr, Peter and Mandl, David and Tatzgern, Markus and Veas, Eduardo and Schmalstieg, Dieter and Kalkofen, Denis},
+    title = {Retargeting Video Tutorials Showing Tools With Surface Contact to Augmented Reality},
+    booktitle = {Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems},
+    series = {CHI '17},
+    pages = {6547--6558},
+    year = {2017},
+    month = may,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Denver Colorado USA},
+    doi = {10.1145/3025453.3025688},
+    url = {https://doi.org/10.1145/3025453.3025688}
+  }
+2017_3dui_user_perspective_rendering: |-
+  @inproceedings{mohr2017adaptive,
+    author = {Mohr, Peter and Tatzgern, Markus and Grubert, Jens and Schmalstieg, Dieter and Kalkofen, Denis},
+    title = {Adaptive user perspective rendering for Handheld Augmented Reality},
+    booktitle = {2017 IEEE Symposium on 3D User Interfaces (3DUI)},
+    pages = {176--181},
+    year = {2017},
+    publisher = {IEEE},
+    location = {Los Angeles, CA, USA},
+    doi = {10.1109/3dui.2017.7893336},
+    url = {https://doi.org/10.1109/3dui.2017.7893336}
+  }
+2016_vr_adaptive_information_density: |-
+  @inproceedings{tatzgern2016adaptive,
+    author = {Tatzgern, Markus and Orso, Valeria and Kalkofen, Denis and Jacucci, Giulio and Gamberini, Luciano and Schmalstieg, Dieter},
+    title = {Adaptive information density for augmented reality displays},
+    booktitle = {2016 IEEE Virtual Reality (VR)},
+    pages = {83--92},
+    year = {2016},
+    month = mar,
+    publisher = {IEEE},
+    location = {Greenville, SC, USA},
+    doi = {10.1109/vr.2016.7504691},
+    url = {https://doi.org/10.1109/vr.2016.7504691}
+  }
+2016_tvcg_temporal_coherence_strategies: |-
+  @article{madsen2016temporal,
+    author = {Madsen, Jacob Boesen and Tatzgern, Markus and Madsen, Claus B. and Schmalstieg, Dieter and Kalkofen, Denis},
+    title = {Temporal Coherence Strategies for Augmented Reality Labeling},
+    journal = {IEEE Transactions on Visualization and Computer Graphics},
+    volume = {22},
+    number = {4},
+    pages = {1415--1423},
+    year = {2016},
+    month = apr,
+    publisher = {IEEE},
+    issn = {1077-2626},
+    doi = {10.1109/tvcg.2016.2518318},
+    url = {https://doi.org/10.1109/tvcg.2016.2518318}
+  }
+2014_pmc_oce_techniques: |-
+  @article{tatzgern2015exploring,
+    author = {Tatzgern, Markus and Grasset, Raphael and Veas, Eduardo and Kalkofen, Denis and Seichter, Hartmut and Schmalstieg, Dieter},
+    title = {Exploring real world points of interest: Design and evaluation of object-centric exploration techniques for augmented reality},
+    journal = {Pervasive and Mobile Computing},
+    volume = {18},
+    pages = {55--70},
+    year = {2015},
+    month = apr,
+    publisher = {Elsevier},
+    issn = {1574-1192},
+    doi = {10.1016/j.pmcj.2014.08.010},
+    url = {https://doi.org/10.1016/j.pmcj.2014.08.010}
+  }
+2014_vr_transitional_if: |-
+  @inproceedings{tatzgern2014transitional,
+    author = {Tatzgern, Markus and Grasset, Raphael and Kalkofen, Denis and Schmalstieg, Dieter},
+    title = {Transitional Augmented Reality navigation for live captured scenes},
+    booktitle = {2014 IEEE Virtual Reality (VR)},
+    pages = {21--26},
+    year = {2014},
+    month = mar,
+    publisher = {IEEE},
+    location = {Minneapolis, MN, USA},
+    doi = {10.1109/vr.2014.6802045},
+    url = {https://doi.org/10.1109/vr.2014.6802045}
+  }
+2014_vr_hedgehog: |-
+  @inproceedings{tatzgern2014hedgehog,
+    author = {Tatzgern, Markus and Kalkofen, Denis and Grasset, Raphael and Schmalstieg, Dieter},
+    title = {Hedgehog labeling: View management techniques for external labels in {3D} space},
+    booktitle = {2014 IEEE Virtual Reality (VR)},
+    pages = {27--32},
+    year = {2014},
+    month = mar,
+    publisher = {IEEE},
+    location = {Minneapolis, MN, USA},
+    doi = {10.1109/vr.2014.6802046},
+    url = {https://doi.org/10.1109/vr.2014.6802046}
+  }
+2013_jvrc_exploring_distant_objects: |-
+  @inproceedings{tatzgern2013exploring,
+    author = {Tatzgern, Markus and Grasset, Raphael and Veas, Eduardo and Kalkofen, Denis and Seichter, Hartmut and Schmalstieg, Dieter},
+    title = {Exploring Distant Objects with Augmented Reality},
+    booktitle = {Joint Virtual Reality Conference of EGVE - EuroVR},
+    pages = {49--56},
+    year = {2013},
+    publisher = {The Eurographics Association},
+    isbn = {978-3-905674-47-7},
+    issn = {1727-530X},
+    doi = {10.2312/EGVE.JVRC13.049-056},
+    url = {https://doi.org/10.2312/EGVE.JVRC13.049-056}
+  }
+2013_vr_dynamic_compact_vis: |-
+  @inproceedings{tatzgern2013dynamic,
+    author = {Tatzgern, Markus and Kalkofen, Denis and Schmalstieg, Dieter},
+    title = {Dynamic compact visualizations for augmented reality},
+    booktitle = {2013 IEEE Virtual Reality (VR)},
+    pages = {3--6},
+    year = {2013},
+    month = mar,
+    publisher = {IEEE},
+    location = {Lake Buena Vista, FL},
+    doi = {10.1109/vr.2013.6549347},
+    url = {https://doi.org/10.1109/vr.2013.6549347}
+  }
+2012_ismar_image_driven_viewmanagement: |-
+  @inproceedings{grasset2012image,
+    author = {Grasset, Raphaël and Langlotz, Tobias and Kalkofen, Denis and Tatzgern, Markus and Schmalstieg, Dieter},
+    title = {Image-driven view management for augmented reality browsers},
+    booktitle = {2012 IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    pages = {177--186},
+    year = {2012},
+    month = nov,
+    publisher = {IEEE},
+    location = {Atlanta, GA, USA},
+    doi = {10.1109/ismar.2012.6402555},
+    url = {https://doi.org/10.1109/ismar.2012.6402555}
+  }
+2011_cag_multiperspective_compact: |-
+  @article{tatzgern2011multi,
+    author = {Tatzgern, Markus and Kalkofen, Denis and Schmalstieg, Dieter},
+    title = {Multi-perspective compact explosion diagrams},
+    journal = {Computers \&amp; Graphics},
+    volume = {35},
+    number = {1},
+    pages = {135--147},
+    year = {2011},
+    month = feb,
+    publisher = {Elsevier},
+    issn = {0097-8493},
+    doi = {10.1016/j.cag.2010.11.005},
+    url = {https://doi.org/10.1016/j.cag.2010.11.005}
+  }
+2011_ismar_embedded_views: |-
+  @inproceedings{tatzgern2011embedded,
+    author = {Tatzgern, Markus and Kalkofen, Denis and Grasset, Raphael and Schmalstieg, Dieter},
+    title = {Embedded Virtual Views for Augmented Reality Navigation},
+    booktitle = {IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Workshop on Visualization in Mixed Reality Environments},
+    year = {2011},
+    location = {Basel, Switzerland},
+    url = {https://doi.org/10.13140/2.1.4398.1769}
+  }
+2010_npar_compact_explosion_diagrams: |-
+  @inproceedings{tatzgern2010compact,
+    author = {Tatzgern, Markus and Kalkofen, Denis and Schmalstieg, Dieter},
+    title = {Compact explosion diagrams},
+    booktitle = {Proceedings of the 8th International Symposium on Non-Photorealistic Animation and Rendering - NPAR 10},
+    series = {NPAR '10},
+    pages = {17--26},
+    year = {2010},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Annecy, France},
+    doi = {10.1145/1809939.1809942},
+    url = {https://doi.org/10.1145/1809939.1809942}
+  }
+2009_vr_explosion_diagrams: |-
+  @inproceedings{kalkofen2009explosion,
+    author = {Kalkofen, D. and Tatzgern, M. and Schmalstieg, D.},
+    title = {Explosion Diagrams in Augmented Reality},
+    booktitle = {2009 IEEE Virtual Reality Conference},
+    pages = {71--78},
+    year = {2009},
+    month = mar,
+    publisher = {IEEE},
+    location = {Lafayette, LA},
+    doi = {10.1109/vr.2009.4811001},
+    url = {https://doi.org/10.1109/vr.2009.4811001}
+  }

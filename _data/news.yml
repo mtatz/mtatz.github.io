@@ -1,0 +1,11 @@
+# News items, newest first. One line each; `text` is Markdown (links allowed). `date` is YYYY-MM.
+- date: 2026-10
+  text: "[Where's the Team Spirit? An Exploratory Study on Team Development Through Co-located Tablet-Based VR](https://doi.org/10.1145/3817040) at ACM CSCW 2026, Salt Lake City."
+- date: 2026-09
+  text: "Started as Associate Professor in Creative Technology at the [University of Warwick](https://warwick.ac.uk/)."
+- date: 2026-04
+  text: "Co-organized the workshop [Next Steps for Augmented Reality On-the-Move](https://doi.org/10.1145/3772363.3778775) at ACM CHI 2026, Barcelona."
+- date: 2025-11
+  text: "Two papers at ACM VRST 2025, Montreal: [From Lab to Sidewalk](https://doi.org/10.1145/3756884.3766006) and [SpatialMouse](https://doi.org/10.1145/3756884.3766047)."
+- date: 2025-10
+  text: "TVCG paper [See What I Mean? Mobile Eye-Perspective Rendering](https://doi.org/10.1109/tvcg.2025.3616739) presented at IEEE ISMAR 2025, Daejeon."

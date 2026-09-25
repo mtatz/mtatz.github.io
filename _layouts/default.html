@@ -3,18 +3,58 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }}</title>
+  <title>{{ site.title }} – {{ site.tagline }}</title>
   <meta name="description" content="{{ site.description | strip }}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="{{ '/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ '/favicon-32.png' | relative_url }}" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+  <meta name="theme-color" content="#1f5f8b">
+
+  <meta property="og:type" content="profile">
+  <meta property="og:title" content="{{ site.title }} – {{ site.tagline }}">
+  <meta property="og:description" content="{{ site.description | strip }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/assets/images/profile/profile.jpg">
+  <meta property="og:image:alt" content="Portrait of {{ site.title }}">
+  <meta property="profile:first_name" content="Markus">
+  <meta property="profile:last_name" content="Tatzgern">
+  <meta name="twitter:card" content="summary">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "{{ site.title }}",
+      "jobTitle": "Associate Professor in Creative Technology",
+      "affiliation": { "@type": "CollegeOrUniversity", "name": "University of Warwick", "url": "https://warwick.ac.uk/" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Graz University of Technology" },
+      "email": "mailto:mail@markustatzgern.com",
+      "url": "{{ site.url }}/",
+      "image": "{{ site.url }}/assets/images/profile/profile.jpg",
+      "identifier": "https://orcid.org/{{ site.orcid }}",
+      "knowsAbout": ["Augmented Reality", "Virtual Reality", "Mixed Reality", "Human-Computer Interaction", "Visualization"],
+      "sameAs": [
+        "https://orcid.org/{{ site.orcid }}",
+        "https://scholar.google.com/citations?user=Fs0fyasAAAAJ",
+        "https://www.linkedin.com/pub/markus-tatzgern/7/ab7/929",
+        "https://www.youtube.com/{{ site.youtube_channel }}"
+      ]
+    }
+  }
+  </script>
+
+  <link rel="preload" href="{{ '/assets/fonts/sourcesans3-normal-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/assets/fonts/fonts.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
 </head>
 <body>
   <header class="topbar">
     <nav>
       <a href="#top">Home</a>
+      <a href="#news">News</a>
       <a href="#publications">Publications</a>
       <a href="#theses">Theses</a>
       <a href="#patents">Patents</a>
@@ -24,5 +64,23 @@
     {{ content }}
   </main>
   <footer>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</footer>
+  <script>
+    document.addEventListener("click", function (e) {
+      var b = e.target.closest(".cite-btn");
+      if (b) {
+        var box = document.getElementById(b.getAttribute("aria-controls"));
+        box.hidden = !box.hidden;
+        b.setAttribute("aria-expanded", String(!box.hidden));
+        return;
+      }
+      var c = e.target.closest(".copy-btn");
+      if (c && navigator.clipboard) {
+        navigator.clipboard.writeText(c.parentNode.querySelector("code").textContent).then(function () {
+          c.textContent = "Copied";
+          setTimeout(function () { c.textContent = "Copy BibTeX"; }, 1500);
+        });
+      }
+    });
+  </script>
 </body>
 </html>

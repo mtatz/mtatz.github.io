@@ -1,10 +1,14 @@
 title: Markus Tatzgern
+tagline: Extended Reality Researcher
 description: >-
   Markus Tatzgern is an Associate Professor in Creative Technology at the University of Warwick,
   researching visualization and interaction techniques for Augmented and Virtual Reality.
 url: https://markustatzgern.com
 baseurl: ""
 lang: en
+
+plugins:
+  - jekyll-sitemap
 
 orcid: 0000-0002-3900-4944
 youtube_channel: mtatzgern
