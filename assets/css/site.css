@@ -66,6 +66,10 @@ h3.year { font-size: 1.3rem; color: var(--muted); margin: 1.8rem 0 .6rem; border
 }
 .pub-body p { margin: 0 0 .2rem; }
 .pub-title { font-weight: 600; font-size: 1.05rem; line-height: 1.35; }
+.pub-title a { color: var(--fg); }
+.pub-title a:hover { color: var(--accent); }
+.pub-thumb a img { transition: opacity .15s; }
+.pub-thumb a:hover img { opacity: .85; }
 .pub-authors, .pub-venue { color: var(--muted); font-size: .95rem; }
 .pub-authors strong { color: var(--fg); font-weight: 600; }
 .pub-links a {

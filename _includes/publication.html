@@ -1,12 +1,18 @@
 {%- assign p = include.pub -%}
+{%- if p.doi -%}{%- assign href = "https://doi.org/" | append: p.doi -%}
+{%- elsif p.url -%}{%- assign href = p.url -%}
+{%- elsif p.pdf -%}{%- assign href = p.pdf | prepend: '/' | relative_url -%}
+{%- else -%}{%- assign href = nil -%}{%- endif -%}
 <li class="pub{% if p.award %} pub-award{% endif %}" id="{{ p.id }}">
   <div class="pub-thumb">
     {%- assign img = p.image | default: "papers/placeholder.svg" -%}
+    {% if href %}<a href="{{ href }}" tabindex="-1" aria-hidden="true">{% endif -%}
     <img src="{{ img | prepend: '/' | relative_url }}" alt="{% if p.image %}Teaser image: {{ p.title | escape }}{% endif %}" loading="lazy">
+    {%- if href %}</a>{% endif %}
   </div>
   <div class="pub-body">
     {%- if p.award %}<p class="award-badge">&#127942; {{ p.award }}</p>{% endif %}
-    <p class="pub-title">{{ p.title }}</p>
+    <p class="pub-title">{% if href %}<a href="{{ href }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</p>
     <p class="pub-authors">{{ p.authors | replace: "Markus Tatzgern", "<strong>Markus Tatzgern</strong>" }}</p>
     <p class="pub-venue"><em>{{ p.venue }}</em>, {{ p.year }}</p>
     <p class="pub-links">
