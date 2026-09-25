@@ -60,7 +60,7 @@ h3.year { font-size: 1.3rem; color: var(--muted); margin: 1.8rem 0 .6rem; border
 
 .pubs { list-style: none; margin: 0; padding: 0; }
 .pub { display: grid; grid-template-columns: 200px 1fr; gap: 1.2rem; padding: .9rem 0; }
-.pub-thumb img, .pub-thumb-placeholder {
+.pub-thumb img {
   width: 200px; height: 125px; object-fit: cover; border-radius: 4px;
   background: var(--thumb-bg); display: block; border: 1px solid var(--line);
 }
@@ -90,6 +90,5 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 2r
   .profile-side { display: grid; grid-template-columns: 140px 1fr; gap: 1rem; align-items: start; }
   .profile-links { margin: 0; }
   .pub { grid-template-columns: 1fr; gap: .6rem; }
-  .pub-thumb img, .pub-thumb-placeholder { width: 100%; height: auto; aspect-ratio: 16 / 10; }
-  .pub-thumb-placeholder { display: none; }
+  .pub-thumb img { width: 100%; height: auto; aspect-ratio: 16 / 10; }
 }

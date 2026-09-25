@@ -22,7 +22,7 @@ Single-page Jekyll site, deployed to GitHub Pages (custom domain markustatzgern.
   authors: A, B, Markus Tatzgern  # comma-separated, full names
   venue: Full Venue Name (ABBR)   # no pages, no year
   year: 2025
-  image: papers/2025_arkward.png  # every paper should have one
+  image: papers/2025_arkward.png  # optional; without it papers/placeholder.svg is shown
   doi: 10.1145/3743740            # without https://doi.org/
   pdf: papers/2025_arkward.pdf    # optional, author version
   youtube: Y_DVrMH3XDs            # optional, video ID only
