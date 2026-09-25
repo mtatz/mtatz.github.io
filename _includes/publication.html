@@ -1,0 +1,22 @@
+{%- assign p = include.pub -%}
+<li class="pub{% if p.award %} pub-award{% endif %}" id="{{ p.id }}">
+  <div class="pub-thumb">
+    {%- if p.image -%}
+    <img src="{{ p.image | prepend: '/' | relative_url }}" alt="Teaser image: {{ p.title | escape }}" loading="lazy">
+    {%- else -%}
+    <div class="pub-thumb-placeholder" aria-hidden="true"></div>
+    {%- endif -%}
+  </div>
+  <div class="pub-body">
+    {%- if p.award %}<p class="award-badge">&#127942; {{ p.award }}</p>{% endif %}
+    <p class="pub-title">{{ p.title }}</p>
+    <p class="pub-authors">{{ p.authors | replace: "Markus Tatzgern", "<strong>Markus Tatzgern</strong>" }}</p>
+    <p class="pub-venue"><em>{{ p.venue }}</em>, {{ p.year }}</p>
+    <p class="pub-links">
+      {%- if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif -%}
+      {%- if p.pdf %}<a href="{{ p.pdf | prepend: '/' | relative_url }}">PDF</a>{% endif -%}
+      {%- if p.youtube %}<a class="video" href="https://www.youtube.com/watch?v={{ p.youtube }}">&#9654; Video</a>{% endif -%}
+      {%- if p.url %}<a href="{{ p.url }}">Project</a>{% endif -%}
+    </p>
+  </div>
+</li>

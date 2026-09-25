@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<section class="profile">
+  <div class="profile-side">
+    <img class="profile-photo" src="{{ '/assets/images/profile/profile.png' | relative_url }}" alt="Portrait of Markus Tatzgern">
+    <ul class="profile-links">
+      {%- for l in site.data.links %}
+      <li><a href="{{ l.url }}">{{ l.name }}</a></li>
+      {%- endfor %}
+    </ul>
+  </div>
+  <div class="profile-main">
+    <h1>Markus Tatzgern</h1>
+    <p class="subtitle">Extended Reality Researcher</p>
+
+    <p>I am Associate Professor in Creative Technology at the <a href="https://warwick.ac.uk/">University of Warwick</a>. Prior to that I was Professor for Mixed Reality and Game Development and Head of Research at the Department of Creative Technologies, <a href="https://www.fh-salzburg.ac.at">Salzburg University of Applied Sciences</a>. My work is situated at the intersection of XR, human&ndash;computer interaction, and generative AI.</p>
+
+    <p>My research focuses on visualization and interaction techniques for Augmented and Virtual Reality, aiming to seamlessly bridge digital and physical worlds. I explore adaptive visualization, multimodal interaction, and AI-driven approaches to create human-centered AR/VR solutions, with applications in training, learning, healthcare, human&ndash;robot interaction, and everyday augmentation.</p>
+
+    <p>I received my M.S. and Ph.D. with highest distinction from Graz University of Technology, where I also worked as a researcher at the Christian Doppler Laboratory for Handheld Augmented Reality. My work has been published at top-tier venues including ACM CHI, IEEE ISMAR, IEEE VR, and IEEE TVCG, and has resulted in several patents on augmented reality visualization. My research has been recognized with multiple honorable mention awards.</p>
+
+    <p>I contribute actively to the scientific community as Program Committee member and reviewer, and served as Program Chair of IEEE ISMAR in 2024 and 2025. I currently serve as Treasurer of ACM SIGCHI Austria. Beyond academia, I am committed to outreach, engaging with industry, media, and the public to advance understanding and adoption of immersive technologies.</p>
+  </div>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  {%- assign by_year = site.data.publications | group_by: "year" | sort: "name" | reverse %}
+  {%- for group in by_year %}
+  <h3 class="year">{{ group.name }}</h3>
+  <ol class="pubs">
+    {%- for p in group.items %}
+    {% include publication.html pub=p %}
+    {%- endfor %}
+  </ol>
+  {%- endfor %}
+</section>
+
+<section id="theses">
+  <h2>Theses</h2>
+  <ul class="plain">
+    {%- for t in site.data.theses %}
+    <li><strong>{{ t.title }}</strong>. {{ t.type }}, {{ t.institution }}, {{ t.year }}.{% if t.pdf %} <a href="{{ t.pdf | prepend: '/' | relative_url }}">PDF</a>{% endif %}</li>
+    {%- endfor %}
+  </ul>
+</section>
+
+<section id="patents">
+  <h2>Patents</h2>
+  <ul class="plain">
+    {%- for pt in site.data.patents %}
+    <li>{{ pt.authors }}. <strong>{{ pt.title }}</strong>. {{ pt.number }}, {{ pt.date }}.</li>
+    {%- endfor %}
+  </ul>
+</section>

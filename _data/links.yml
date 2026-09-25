@@ -1,0 +1,12 @@
+- name: Email
+  url: mailto:mail@markustatzgern.com
+- name: Google Scholar
+  url: https://scholar.google.com/citations?user=Fs0fyasAAAAJ
+- name: ORCID
+  url: https://orcid.org/0000-0002-3900-4944
+- name: YouTube
+  url: https://www.youtube.com/mtatzgern
+- name: LinkedIn
+  url: https://www.linkedin.com/pub/markus-tatzgern/7/ab7/929
+- name: CV
+  url: /assets/tatzgern_cv.pdf

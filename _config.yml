@@ -1,0 +1,18 @@
+title: Markus Tatzgern
+description: >-
+  Markus Tatzgern is an Associate Professor in Creative Technology at the University of Warwick,
+  researching visualization and interaction techniques for Augmented and Virtual Reality.
+url: https://markustatzgern.com
+baseurl: ""
+lang: en
+
+orcid: 0000-0002-3900-4944
+youtube_channel: mtatzgern
+
+exclude:
+  - README.md
+  - CLAUDE.md
+  - scripts/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

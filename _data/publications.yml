@@ -1,0 +1,283 @@
+# Publications shown on the homepage (newest first; order in this file = order on the page).
+# Fields: id, title, authors, venue, year (required); image, doi, pdf, youtube (video ID), award, url (optional).
+# Images and PDFs live in /papers/. Entries are added by scripts/sync_publications.py (ORCID) or by hand.
+- id: 2026_teamspirit
+  title: Where's the Team Spirit? An Exploratory Study on Team Development Through Co-located Tablet-Based VR
+  authors: Irina Paraschivoiu, Thomas Layer-Wagner, Klaus Neundlinger, Simone Rack, Markus Tatzgern
+  venue: Proceedings of the ACM on Human-Computer Interaction (PACMHCI)
+  year: 2026
+  doi: 10.1145/3817040
+- id: 2026_arotm_chi_ea
+  title: 'Next Steps for Augmented Reality On-the-Move: Challenges and Opportunities'
+  authors: Helen Stefanidi, Vincent van Rheden, Linjia He, Michelle Adiwangsa, Jan-Hendrik Sünderkamp, Alina Itzlinger, Andrii Matviienko, Julie R. Williamson, Ian Oakley, Markus Tatzgern, Alexander Meschtscherjakov
+  venue: Extended Abstracts of the ACM CHI Conference on Human Factors in Computing Systems (CHI EA)
+  year: 2026
+  doi: 10.1145/3772363.3778775
+- id: 2025_labsidewalk
+  title: 'From Lab to Sidewalk: Exploring AR Interaction Techniques Outdoors and in Motion using Fitts’ Law'
+  authors: Jan-Hendrik Sünderkamp, Helen Stefanidi, Alexander Meschtscherjakov, Markus Tatzgern
+  venue: ACM Symposium on Virtual Reality Software and Technology (VRST)
+  year: 2025
+  image: papers/2025_labsidewalk.png
+  doi: 10.1145/3756884.3766006
+- id: 2025_spatialmouse
+  title: 'SpatialMouse: A Hybrid Pointing Device for Seamless Interaction Across 2D and 3D Space'
+  authors: Sebastian Hubenschmid, Johannes Zagermann, Robin Erb, Tiare Feuchtner, Jens Grubert, Markus Tatzgern, Dieter Schmalstieg, Harald Reiterer
+  venue: ACM Symposium on Virtual Reality Software and Technology (VRST)
+  year: 2025
+  image: papers/2025_spatialmouse.png
+  doi: 10.1145/3756884.3766047
+- id: 2025_hybridinput
+  title: Revisiting Hybrid Input Devices for Immersive Analytics
+  authors: Sebastian Hubenschmid, Johannes Zagermann, Niklas Elmqvist, Tiare Feuchtner, Jens Grubert, Markus Tatzgern, Dieter Schmalstieg, Harald Reiterer
+  venue: IEEE Conference on Human Factors in Immersive Analytics (HFIA), IEEE VIS Workshop
+  year: 2025
+  image: papers/2025_hybridinput.png
+  doi: 10.1109/hfia68651.2025.00011
+- id: 2025_mobileepr
+  title: See What I Mean? Mobile Eye-Perspective Rendering for Optical See-Through Head-Mounted Displays
+  authors: Gerlinde Emsenhuber, Tobias Langlotz, Denis Kalkofen, Markus Tatzgern
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG), ISMAR Special Issue
+  year: 2025
+  image: papers/2025_mobileepr.png
+  doi: 10.1109/tvcg.2025.3616739
+  youtube: Y_DVrMH3XDs
+- id: 2025_arkward
+  title: 'You’re making things AR-kward: Exploring Augmented Reality In-the-Wild'
+  authors: Helen Stefanidi, Jan-Hendrik Sünderkamp, Markus Tatzgern, Alina Itzlinger, Alexander Meschtscherjakov
+  venue: Proceedings of the ACM on Human-Computer Interaction (PACMHCI), MobileHCI Issue
+  year: 2025
+  image: papers/2025_arkward.png
+  doi: 10.1145/3743740
+  award: Honorable Mention for Best Paper
+- id: 2025_xmas
+  title: 'Exploring AR In-the-Wild: An Autoethnographic Study at a Christmas Market'
+  authors: Helen Stefanidi, Jan-Hendrik Sünderkamp, Alina Itzlinger, Markus Tatzgern, Alexander Meschtscherjakov
+  venue: Companion Publication of the ACM Designing Interactive Systems Conference (DIS)
+  year: 2025
+  image: papers/2025_xmas.png
+  doi: 10.1145/3715668.3736368
+- id: 2025_retailing
+  title: 'Interactive product presentation in an immersive environment: The influence of functional control on hedonic aspects'
+  authors: Arno Kinzinger, Winfried J. Steiner, Markus Tatzgern, Christine Vallaster
+  venue: Journal of Retailing and Consumer Services
+  year: 2025
+  image: papers/2025_retailing.png
+  doi: 10.1016/j.jretconser.2024.104156
+- id: 2025_adaptiveoutdoor
+  title: Bringing Adaptive On-the-Move AR to Outdoor Environments
+  authors: Helen Stefanidi, Markus Tatzgern, Alina Itzlinger, Alexander Meschtscherjakov
+  venue: ACM CHI Conference on Human Factors in Computing Systems (CHI), Workshop on Artificial Intelligence and Human Interfaces
+  year: 2025
+- id: 2024_passive_haptics
+  title: Passive Haptic Feedback for Control Elements in Virtual Reality
+  authors: Markus Tatzgern, David Fasching, Vivian Gómez, Sebastián Calvache, Pablo Figueroa
+  venue: IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)
+  year: 2024
+  image: papers/2024_passive_haptics.webp
+  doi: 10.1109/vrw62533.2024.00171
+- id: 2024_mobilearsurvey
+  title: 'Augmented Reality on the Move: A Systematic Literature Review for Vulnerable Road Users'
+  authors: Eleni Stefanidi, Markus Tatzgern, Alexander Meschtscherjakov
+  venue: Proceedings of the ACM on Human-Computer Interaction (PACMHCI), MobileHCI Issue
+  year: 2024
+  image: papers/mobilearsuvey2024.png
+  doi: 10.1145/3676490
+- id: 2024_immersive_authoring
+  title: Immersive Authoring by Demonstration of Industrial Procedures
+  authors: Lucchas Ribeiro Skreinig, Peter Mohr, Bianca Berger, Markus Tatzgern, Dieter Schmalstieg, Denis Kalkofen
+  venue: IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
+  year: 2024
+  image: papers/vrauthoringdemonstration.png
+  doi: 10.1109/ismar62088.2024.00146
+- id: 2024_xr_prototyping
+  title: 'XR Prototyping of Mixed Reality Visualizations: Compensating Interaction Latency for a Medical Imaging Robot'
+  authors: Jan Hendrik Plümer, Kevin Yu, Ulrich Eck, Denis Kalkofen, Philipp Steininger, Nassir Navab, Markus Tatzgern
+  venue: IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
+  year: 2024
+  image: papers/xrprototyping2024.png
+  doi: 10.1109/ismar62088.2024.00014
+  youtube: bEuPhcOjYvg
+  award: Honorable Mention for Best Paper
+- id: 2023_CHI_epr_viewman
+  title: Eye-Perspective View Management for Optical See-Through Head-Mounted Displays
+  authors: Gerlinde Emsenhuber, Tobias Langlotz, Denis Kalkofen, Jonathan Sutton, Markus Tatzgern
+  venue: ACM CHI Conference on Human Factors in Computing Systems (CHI)
+  year: 2023
+  image: papers/2023_CHI_epr_viewman.png
+  doi: 10.1145/3544548.3581059
+  youtube: RkgUocKWa6Y
+- id: 2023_xr_prototyping
+  title: Towards a Framework for Validating XR Prototyping for Performance Evaluations of Simulated User Experiences
+  authors: Jan Hendrik Plümer, Markus Tatzgern
+  venue: IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
+  year: 2023
+  image: papers/2023_xrprototyping.webp
+  doi: 10.1109/ismar59233.2023.00096
+  youtube: WMlBGbSusv8
+- id: 2022_vr_epr_poster
+  title: Towards Eye-Perspective Rendering for Optical See-Through Head-Mounted Displays
+  authors: Gerlinde Emsenhuber, Michael Domhardt, Tobias Langlotz, Denis Kalkofen, Markus Tatzgern
+  venue: IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)
+  year: 2022
+  image: papers/2022_vr_epr_poster.png
+  doi: 10.1109/vrw55335.2022.00171
+- id: 2022_lse_hse_vr_shopping
+  title: Comparing Low Sensory Enabling (LSE) and High Sensory Enabling (HSE) Virtual Product Presentation Modes in e-Commerce
+  authors: Arno Kinzinger, Wienfried Steiner, Markus Tatzgern, Christine Vallaster
+  venue: Information Systems Journal
+  year: 2022
+  image: papers/2022_lse_hse_vr_shopping.jpg
+  doi: 10.1111/isj.12382
+- id: 2022_CHI_aires_mask
+  title: 'AirRes Mask: A Precise and Robust Virtual Reality Breathing Interface Utilizing Breathing Resistance as Output Modality'
+  authors: Markus Tatzgern, Michael Domhardt, Martin Wolf, Michael Cenger, Gerlinde Emsenhuber, Radomir Dinic, Nathalie Gerner, Arnulf Hartl
+  venue: ACM CHI Conference on Human Factors in Computing Systems (CHI)
+  year: 2022
+  image: papers/2022_CHI_aires_mask.png
+  doi: 10.1145/3491102.3502090
+  award: Honorable Mention for Best Paper
+- id: 2021_vr_interaction_fidelity
+  title: Exploring Input Approximations for Control Panels in Virtual Reality
+  authors: Markus Tatzgern, Christoph Birgmann
+  venue: IEEE Conference on Virtual Reality and 3D User Interfaces (VR)
+  year: 2021
+  image: papers/2021_vr_interaction_fidelity.png
+  doi: 10.1109/vr50410.2021.00092
+- id: 2020_uist_video_annotated_ar
+  title: Video-Annotated Augmented Reality Assembly Tutorials
+  authors: Masahiro Yamaguchi, Shohei Mori, Peter Mohr, Markus Tatzgern, Ana Stanescu, Hideo Saito, Denis Kalkofen
+  venue: ACM Symposium on User Interface Software and Technology (UIST)
+  year: 2020
+  image: papers/2020_uist_video_annotated_ar.png
+  doi: 10.1145/3379337.3415819
+- id: 2019_chi_track_cap
+  title: 'TrackCap: Enabling Smartphones for 3D Interaction on Mobile Head-Mounted Displays'
+  authors: Peter Mohr, Markus Tatzgern, Tobias Langlotz, Andreas Lang, Dieter Schmalstieg, Denis Kalkofen
+  venue: ACM CHI Conference on Human Factors in Computing Systems (CHI)
+  year: 2019
+  image: papers/2019_chi_track_cap.png
+  doi: 10.1145/3290605.3300815
+- id: 2019_curator_dioramas
+  title: Augmented Reality Brings the Real World into Natural History Dioramas with Data Visualizations and Bioacoustics at the Carnegie Museum of Natural History
+  authors: Maria C. R. Harrington, Markus Tatzgern, Tom Langer, John W. Wenzel
+  venue: 'Curator: The Museum Journal'
+  year: 2019
+  doi: 10.1111/cura.12308
+- id: 2017_chi_video_retargeting
+  title: Retargeting Video Tutorials Showing Tools With Surface Contact to Augmented Reality
+  authors: Peter Mohr, David Mandl, Markus Tatzgern, Eduardo Veas, Dieter Schmalstieg, Denis Kalkofen
+  venue: ACM CHI Conference on Human Factors in Computing Systems (CHI)
+  year: 2017
+  image: papers/2017_chi_video_retargeting.png
+  doi: 10.1145/3025453.3025688
+- id: 2017_3dui_user_perspective_rendering
+  title: Adaptive User Perspective Rendering for Handheld Augmented Reality
+  authors: Peter Mohr, Markus Tatzgern, Jens Grubert, Dieter Schmalstieg, Denis Kalkofen
+  venue: IEEE Symposium on 3D User Interfaces (3DUI)
+  year: 2017
+  image: papers/2017_3dui_user_perspective_rendering.png
+  doi: 10.1109/3dui.2017.7893336
+  award: Honorable Mention for Best Paper
+- id: 2016_vr_adaptive_information_density
+  title: Adaptive Information Density for Augmented Reality Displays
+  authors: Markus Tatzgern, Valeria Orso, Denis Kalkofen, Giulio Jacucci, Luciano Gamberini, Dieter Schmalstieg
+  venue: IEEE Virtual Reality (VR)
+  year: 2016
+  image: papers/2016_vr_adaptive_information_density.png
+  doi: 10.1109/vr.2016.7504691
+  pdf: papers/2016_vr_adaptive_information_density.pdf
+  youtube: zbNtM4eN75I
+- id: 2016_tvcg_temporal_coherence_strategies
+  title: Temporal Coherence Strategies for Augmented Reality Labeling
+  authors: Jacob Boesen Madsen, Markus Tatzgern, Claus B Madsen, Dieter Schmalstieg, Denis Kalkofen
+  venue: IEEE Transactions on Visualization and Computer Graphics (TVCG)
+  year: 2016
+  image: papers/2016_tvcg_temporal_coherence_strategies.png
+  doi: 10.1109/tvcg.2016.2518318
+- id: 2014_pmc_oce_techniques
+  title: 'Exploring Real World Points of Interest: Design and Evaluation of Object-Centric Exploration Techniques for Augmented Reality'
+  authors: Markus Tatzgern, Raphael Grasset, Eduardo Veas, Denis Kalkofen, Hartmut Seichter, Dieter Schmalstieg
+  venue: Pervasive and Mobile Computing, Special Issue on Mobile and Pervasive Applications in Tourism
+  year: 2015
+  image: papers/2014_pmc_oce_techniques.png
+  doi: 10.1016/j.pmcj.2014.08.010
+  pdf: papers/2014_pmc_oce_techniques.pdf
+  youtube: pq4knRTASiY
+- id: 2014_vr_transitional_if
+  title: Transitional Augmented Reality Navigation for Live Captured Scenes
+  authors: Markus Tatzgern, Raphael Grasset, Denis Kalkofen, Dieter Schmalstieg
+  venue: IEEE Virtual Reality (VR)
+  year: 2014
+  image: papers/2014_vr_transitional_if.png
+  doi: 10.1109/vr.2014.6802045
+  pdf: papers/2014_vr_transitional_if.pdf
+  youtube: 1YtV_vuf9_A
+- id: 2014_vr_hedgehog
+  title: 'Hedgehog Labeling: View Management Techniques for External Labels in 3D Space'
+  authors: Markus Tatzgern, Denis Kalkofen, Raphael Grasset, Dieter Schmalstieg
+  venue: IEEE Virtual Reality (VR)
+  year: 2014
+  image: papers/2014_vr_hedgehog.png
+  doi: 10.1109/vr.2014.6802046
+  pdf: papers/2014_vr_hedgehog.pdf
+  youtube: XUQu4XAc2MI
+- id: 2013_jvrc_exploring_distant_objects
+  title: Exploring Distant Objects with Augmented Reality
+  authors: Markus Tatzgern, Raphael Grasset, Eduardo Veas, Denis Kalkofen, Hartmut Seichter, Dieter Schmalstieg
+  venue: Joint Virtual Reality Conference of EGVE and EuroVR (JVRC)
+  year: 2013
+  image: papers/2013_jvrc_exploring_distant_objects.png
+  doi: 10.2312/EGVE.JVRC13.049-056
+  pdf: papers/2013_jvrc_exploring_distant_objects.pdf
+  youtube: t9LFtHshYaQ
+- id: 2013_vr_dynamic_compact_vis
+  title: Dynamic Compact Visualizations for Augmented Reality
+  authors: Markus Tatzgern, Denis Kalkofen, Dieter Schmalstieg
+  venue: IEEE Virtual Reality (VR)
+  year: 2013
+  image: papers/2013_vr_dynamic_compact_vis.png
+  doi: 10.1109/vr.2013.6549347
+  pdf: papers/2013_vr_dynamic_compact_vis.pdf
+  youtube: xL1aV9C4tYY
+- id: 2012_ismar_image_driven_viewmanagement
+  title: Image-Driven View Management for Augmented Reality Browsers
+  authors: Raphael Grasset, Tobias Langlotz, Denis Kalkofen, Markus Tatzgern, Dieter Schmalstieg
+  venue: IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
+  year: 2012
+  image: papers/2012_ismar_image_driven_viewmanagement.png
+  doi: 10.1109/ismar.2012.6402555
+  pdf: papers/2012_ismar_image_driven_viewmanagement.pdf
+  youtube: 0ONcDVCR-_g
+- id: 2011_cag_multiperspective_compact
+  title: Multi-Perspective Compact Explosion Diagrams
+  authors: Markus Tatzgern, Denis Kalkofen, Dieter Schmalstieg
+  venue: Computers & Graphics
+  year: 2011
+  image: papers/2011_cag_multiperspective_compact.png
+  doi: 10.1016/j.cag.2010.11.005
+  pdf: papers/2011_cag_multiperspective_compact.pdf
+- id: 2011_ismar_embedded_views
+  title: Embedded Virtual Views for Augmented Reality Navigation
+  authors: Markus Tatzgern, Denis Kalkofen, Raphael Grasset, Dieter Schmalstieg
+  venue: IEEE International Symposium on Mixed and Augmented Reality (ISMAR), Workshop on Visualization in Mixed Reality Environments
+  year: 2011
+  image: papers/2011_ismar_embedded_views.png
+  doi: 10.13140/2.1.4398.1769
+  pdf: papers/2011_ismar_embedded_views.pdf
+- id: 2010_npar_compact_explosion_diagrams
+  title: Compact Explosion Diagrams
+  authors: Markus Tatzgern, Denis Kalkofen, Dieter Schmalstieg
+  venue: International Symposium on Non-Photorealistic Animation and Rendering (NPAR)
+  year: 2010
+  image: papers/2010_npar_compact_explosion_diagrams.png
+  doi: 10.1145/1809939.1809942
+  pdf: papers/2010_npar_compact_explosion_diagrams.pdf
+- id: 2009_vr_explosion_diagrams
+  title: Explosion Diagrams in Augmented Reality
+  authors: Denis Kalkofen, Markus Tatzgern, Dieter Schmalstieg
+  venue: IEEE Virtual Reality (VR)
+  year: 2009
+  image: papers/2009_vr_explosion_diagrams.png
+  doi: 10.1109/vr.2009.4811001
+  pdf: papers/2009_vr_explosion_diagrams.pdf
