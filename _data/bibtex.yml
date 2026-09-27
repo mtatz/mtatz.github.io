@@ -109,6 +109,19 @@
     doi = {10.1109/tvcg.2025.3616739},
     url = {https://doi.org/10.1109/tvcg.2025.3616739}
   }
+2025_ismar_mobile_epr_demo: |-
+  @inproceedings{emsenhuber2025mobile,
+    author = {Emsenhuber, Gerlinde and Smirnov, Michael and Langlotz, Tobias and Kalkofen, Denis and Zollmann, Stefanie and Tatzgern, Markus},
+    title = {Mobile Eye-perspective Rendering: Alignment of Image-based Vision Augmentations for Optical See-through Head-mounted Displays},
+    booktitle = {2025 IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct)},
+    pages = {917--918},
+    year = {2025},
+    month = oct,
+    publisher = {IEEE},
+    location = {Daejeon, Korea, Republic of},
+    doi = {10.1109/ismar-adjunct68609.2025.00250},
+    url = {https://doi.org/10.1109/ismar-adjunct68609.2025.00250}
+  }
 2025_arkward: |-
   @article{stefanidi2025you,
     author = {Stefanidi, Helen and Sünderkamp, Jan-Hendrik and Tatzgern, Markus and Itzlinger, Alina and Meschtscherjakov, Alexander},
@@ -284,6 +297,18 @@
     location = {New Orleans LA USA},
     doi = {10.1145/3491102.3502090},
     url = {https://doi.org/10.1145/3491102.3502090}
+  }
+2021_eg_tutorial_mr_vis: |-
+  @inproceedings{kalkofen2021visualization,
+    author = {Kalkofen, Denis and Mori, Shohei and Tatzgern, Markus},
+    title = {Visualization and Graphics in Mixed Reality},
+    booktitle = {Eurographics 2021 - Tutorials},
+    year = {2021},
+    publisher = {The Eurographics Association},
+    isbn = {978-3-03868-135-9},
+    issn = {1017-4656},
+    doi = {10.2312/egt.20211036},
+    url = {https://doi.org/10.2312/egt.20211036}
   }
 2021_vr_interaction_fidelity: |-
   @inproceedings{tatzgern2021exploring,

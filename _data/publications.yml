@@ -72,6 +72,13 @@
   doi: 10.1109/tvcg.2025.3616739
   youtube: Y_DVrMH3XDs
   open_access: true
+- id: 2025_ismar_mobile_epr_demo
+  title: 'Mobile Eye-perspective Rendering: Alignment of Image-based Vision Augmentations for Optical See-through Head-mounted Displays'
+  authors: Gerlinde Emsenhuber, Michael Smirnov, Tobias Langlotz, Denis Kalkofen, Stefanie Zollmann, Markus Tatzgern
+  venue: IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct), Demo
+  year: 2025
+  badge: ISMAR Demo
+  doi: 10.1109/ismar-adjunct68609.2025.00250
 - id: 2025_arkward
   title: 'You’re making things AR-kward: Exploring Augmented Reality In-the-Wild'
   authors: Helen Stefanidi, Jan-Hendrik Sünderkamp, Markus Tatzgern, Alina Itzlinger, Alexander Meschtscherjakov
@@ -193,6 +200,13 @@
   award: Honorable Mention for Best Paper
   open_access: true
   oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3491102.3502090
+- id: 2021_eg_tutorial_mr_vis
+  title: Visualization and Graphics in Mixed Reality
+  authors: Denis Kalkofen, Shohei Mori, Markus Tatzgern
+  venue: Eurographics 2021 – Tutorials
+  year: 2021
+  badge: EG Tutorial
+  doi: 10.2312/egt.20211036
 - id: 2021_vr_interaction_fidelity
   title: Exploring Input Approximations for Control Panels in Virtual Reality
   authors: Markus Tatzgern, Christoph Birgmann
