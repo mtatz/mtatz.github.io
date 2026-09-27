@@ -111,7 +111,15 @@ def tex(s):
     return re.sub(r"([&%#_$])", r"\\\1", s)
 
 
+def clean_title(t):
+    """Remove publisher markup (JATS/HTML tags such as <scp>) and trailing ACM paper IDs (e.g. MHCI041)."""
+    t = re.sub(r"<[^>]+>", "", t)
+    t = re.sub(r"\s+[A-Z]{2,}\d{3,}$", "", t.strip())
+    return t.replace("\u2010", "-").replace("\u2011", "-")
+
+
 def protect_title(t):
+    t = clean_title(t)
     def fix(m):
         w = m.group(0)
         core = re.sub(r"[^A-Za-z0-9]", "", w)
@@ -245,7 +253,7 @@ def main():
                 m = crossref(doi)
                 date = (m.get("issued") or {}).get("date-parts", [[None]])[0]
                 entry.update({k: v for k, v in {
-                    "title": (m.get("title") or [""])[0],
+                    "title": clean_title((m.get("title") or [""])[0]),
                     "authors": ", ".join(" ".join(x for x in (a.get("given"), a.get("family")) if x)
                                          for a in m.get("author", [])),
                     "venue": (m.get("container-title") or [""])[0],

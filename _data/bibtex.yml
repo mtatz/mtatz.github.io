@@ -112,7 +112,7 @@
 2025_arkward: |-
   @article{stefanidi2025you,
     author = {Stefanidi, Helen and Sünderkamp, Jan-Hendrik and Tatzgern, Markus and Itzlinger, Alina and Meschtscherjakov, Alexander},
-    title = {You're making things {AR-kward}: Exploring Augmented Reality {In-the-Wild} {MHCI041}},
+    title = {You're making things {AR-kward}: Exploring Augmented Reality {In-the-Wild}},
     journal = {Proceedings of the ACM on Human-Computer Interaction},
     volume = {9},
     number = {5},
@@ -258,7 +258,7 @@
 2022_lse_hse_vr_shopping: |-
   @article{kinzinger2022comparing,
     author = {Kinzinger, Arno and Steiner, Winfried and Tatzgern, Markus and Vallaster, Christine},
-    title = {Comparing low sensory enabling (<scp>{LSE}</scp>) and high sensory enabling (<scp>{HSE}</scp>) virtual product presentation modes in e‐commerce},
+    title = {Comparing low sensory enabling ({LSE}) and high sensory enabling ({HSE}) virtual product presentation modes in e-commerce},
     journal = {Information Systems Journal},
     volume = {32},
     number = {5},
