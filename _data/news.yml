@@ -1,6 +1,8 @@
 # News items, newest first. One line each; `text` is Markdown (links allowed). `date` is YYYY-MM.
 - date: 2026-10
   text: "[Where's the Team Spirit? An Exploratory Study on Team Development Through Co-located Tablet-Based VR](https://doi.org/10.1145/3817040) at ACM CSCW 2026, Salt Lake City."
+- date: 2026-10
+  text: "Paper [Magnification Lenses for Small-Scale Augmented Reality Instructions](https://immersive-technology-lab.github.io/projects/smallparts/assets/ribeiroskreinig_ismar26_paper.pdf) and poster [Augmented Reality Action Summaries for Situated Instructions of Repetitive Tasks](https://immersive-technology-lab.github.io/projects/actionsummaries/assets/ribeiroskreinig_ismara26_poster.pdf) at IEEE ISMAR 2026, Bari."
 - date: 2026-09
   text: "Started as Professor of Creative Technologies at the [University of Warwick](https://warwick.ac.uk/)."
 - date: 2026-04
