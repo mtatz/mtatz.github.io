@@ -19,6 +19,7 @@
   badge: ISMAR
   image: papers/2026_ismar_magnification_lenses.webp
   pdf: https://immersive-technology-lab.github.io/projects/smallparts/assets/ribeiroskreinig_ismar26_paper.pdf
+  youtube: mgENXngqFyA
 - id: 2026_ismar_action_summaries
   title: Augmented Reality Action Summaries for Situated Instructions of Repetitive Tasks
   authors: Lucchas Ribeiro Skreinig, Ana Stanescu, Peter Mohr, Christoph Ebner, Markus Tatzgern, Dieter Schmalstieg, Denis Kalkofen
@@ -140,6 +141,8 @@
   badge: ISMAR
   image: papers/vrauthoringdemonstration.webp
   doi: 10.1109/ismar62088.2024.00146
+  youtube: OttwuWRvmFM
+  pdf: https://immersive-technology-lab.github.io/projects/industrialauthoring/assets/ribeiroskreinig_ismar24_paper.pdf
 - id: 2024_xr_prototyping
   title: 'XR Prototyping of Mixed Reality Visualizations: Compensating Interaction Latency for a Medical Imaging Robot'
   authors: Jan Hendrik Plümer, Kevin Yu, Ulrich Eck, Denis Kalkofen, Philipp Steininger, Nassir Navab, Markus Tatzgern
@@ -241,6 +244,7 @@
   doi: 10.1145/3290605.3300815
   youtube: 4lIx0qxJYPQ
   talk: De4AH4Qic64
+  pdf: https://www.tugraz.at/fileadmin/user_upload/Institute/ICG/Downloads/team_schmalstieg/peter_mohr/TrackCap_004_final.pdf
 - id: 2019_curator_dioramas
   title: Augmented Reality Brings the Real World into Natural History Dioramas with Data Visualizations and Bioacoustics at the Carnegie Museum of Natural History
   authors: Maria C. R. Harrington, Markus Tatzgern, Tom Langer, John W. Wenzel
@@ -258,6 +262,7 @@
   image: papers/2017_chi_video_retargeting.webp
   doi: 10.1145/3025453.3025688
   youtube: FWytd1m6dKk
+  pdf: https://arbook.icg.tugraz.at/schmalstieg/Schmalstieg_330.pdf
 - id: 2017_3dui_user_perspective_rendering
   title: Adaptive User Perspective Rendering for Handheld Augmented Reality
   authors: Peter Mohr, Markus Tatzgern, Jens Grubert, Dieter Schmalstieg, Denis Kalkofen
@@ -267,6 +272,7 @@
   image: papers/2017_3dui_user_perspective_rendering.webp
   doi: 10.1109/3dui.2017.7893336
   award: Honorable Mention for Best Paper
+  pdf: https://www.tugraz.at/fileadmin/user_upload/Institute/ICG/Downloads/team_schmalstieg/peter_mohr/UserPerspectiveRendering.pdf
 - id: 2016_vr_adaptive_information_density
   title: Adaptive Information Density for Augmented Reality Displays
   authors: Markus Tatzgern, Valeria Orso, Denis Kalkofen, Giulio Jacucci, Luciano Gamberini, Dieter Schmalstieg
