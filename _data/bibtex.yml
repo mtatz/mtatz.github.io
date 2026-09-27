@@ -14,6 +14,28 @@
     doi = {10.1145/3817040},
     url = {https://doi.org/10.1145/3817040}
   }
+2026_ismar_magnification_lenses: |-
+  @inproceedings{skreinig2026magnification,
+    author = {Skreinig, Lucchas Ribeiro and Kalkofen, Denis and Ritter, David and Mohr, Peter and Tatzgern, Markus and Schmalstieg, Dieter and Stanescu, Ana},
+    title = {Magnification Lenses for {Small-Scale} Augmented Reality Instructions},
+    booktitle = {Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    year = {2026},
+    publisher = {IEEE},
+    location = {Bari, Italy},
+    url = {https://immersive-technology-lab.github.io/projects/smallparts/assets/ribeiroskreinig_ismar26_paper.pdf},
+    note = {To appear}
+  }
+2026_ismar_action_summaries: |-
+  @inproceedings{skreinig2026augmented,
+    author = {Skreinig, Lucchas Ribeiro and Stanescu, Ana and Mohr, Peter and Ebner, Christoph and Tatzgern, Markus and Schmalstieg, Dieter and Kalkofen, Denis},
+    title = {Augmented Reality Action Summaries for Situated Instructions of Repetitive Tasks},
+    booktitle = {Adjunct Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR-Adjunct)},
+    year = {2026},
+    publisher = {IEEE},
+    location = {Bari, Italy},
+    url = {https://immersive-technology-lab.github.io/projects/actionsummaries/assets/ribeiroskreinig_ismara26_poster.pdf},
+    note = {To appear}
+  }
 2026_arotm_chi_ea: |-
   @inproceedings{stefanidi2026next,
     author = {Stefanidi, Helen and van Rheden, Vincent and He, Linjia and Adiwangsa, Michelle and Sünderkamp, Jan-Hendrik and Itzlinger, Alina and Matviienko, Andrii and Williamson, Julie R. and Oakley, Ian and Tatzgern, Markus and Meschtscherjakov, Alexander},

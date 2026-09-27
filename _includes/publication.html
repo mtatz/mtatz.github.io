@@ -1,9 +1,11 @@
 {%- assign p = include.pub -%}
+{%- if p.pdf -%}
+  {%- if p.pdf contains "://" -%}{%- assign pdf = p.pdf -%}{%- else -%}{%- assign pdf = p.pdf | prepend: '/' | relative_url -%}{%- endif -%}
+{%- else -%}{%- assign pdf = p.oa_pdf -%}{%- endif -%}
 {%- if p.doi -%}{%- assign href = "https://doi.org/" | append: p.doi -%}
 {%- elsif p.url -%}{%- assign href = p.url -%}
-{%- elsif p.pdf -%}{%- assign href = p.pdf | prepend: '/' | relative_url -%}
+{%- elsif pdf -%}{%- assign href = pdf -%}
 {%- else -%}{%- assign href = nil -%}{%- endif -%}
-{%- if p.pdf -%}{%- assign pdf = p.pdf | prepend: '/' | relative_url -%}{%- else -%}{%- assign pdf = p.oa_pdf -%}{%- endif -%}
 {%- assign bib = site.data.bibtex[p.id] -%}
 <li class="pub{% if p.award %} pub-award{% endif %}" id="{{ p.id }}">
   <div class="pub-thumb">

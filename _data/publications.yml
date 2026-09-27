@@ -10,6 +10,23 @@
   badge: CSCW
   doi: 10.1145/3817040
   open_access: true
+  image: papers/2026_teamspirit.webp
+- id: 2026_ismar_magnification_lenses
+  title: Magnification Lenses for Small-Scale Augmented Reality Instructions
+  authors: Lucchas Ribeiro Skreinig, Denis Kalkofen, David Ritter, Peter Mohr, Markus Tatzgern, Dieter Schmalstieg, Ana Stanescu
+  venue: IEEE International Symposium on Mixed and Augmented Reality (ISMAR)
+  year: 2026
+  badge: ISMAR
+  image: papers/2026_ismar_magnification_lenses.webp
+  pdf: https://immersive-technology-lab.github.io/projects/smallparts/assets/ribeiroskreinig_ismar26_paper.pdf
+- id: 2026_ismar_action_summaries
+  title: Augmented Reality Action Summaries for Situated Instructions of Repetitive Tasks
+  authors: Lucchas Ribeiro Skreinig, Ana Stanescu, Peter Mohr, Christoph Ebner, Markus Tatzgern, Dieter Schmalstieg, Denis Kalkofen
+  venue: IEEE International Symposium on Mixed and Augmented Reality Adjunct (ISMAR-Adjunct), Poster
+  year: 2026
+  badge: ISMAR Poster
+  image: papers/2026_ismar_action_summaries.webp
+  pdf: https://immersive-technology-lab.github.io/projects/actionsummaries/assets/ribeiroskreinig_ismara26_poster.pdf
 - id: 2026_arotm_chi_ea
   title: 'Next Steps for Augmented Reality On-the-Move: Challenges and Opportunities'
   authors: Helen Stefanidi, Vincent van Rheden, Linjia He, Michelle Adiwangsa, Jan-Hendrik Sünderkamp, Alina Itzlinger, Andrii Matviienko, Julie R. Williamson, Ian Oakley, Markus Tatzgern, Alexander Meschtscherjakov
