@@ -230,7 +230,14 @@ def main():
         doi = (w["doi"] or "").lower()
         if doi and (doi in known_dois or doi in ignore):
             continue
-        if any(similar(w["title"], p["title"]) >= TITLE_MATCH for p in pubs):
+        match = next((p for p in pubs if similar(w["title"], p["title"]) >= TITLE_MATCH), None)
+        if match:
+            if doi and not match.get("doi"):
+                # e.g. a paper added before publication: attach the DOI, rebuild BibTeX
+                match["doi"] = doi
+                bib.pop(match["id"], None)
+                known_dois.add(doi)
+                report.append("DOI added: %s -> %s" % (match["title"], doi))
             continue
         entry = {"title": w["title"], "authors": "", "venue": w["venue"] or "", "year": w["year"]}
         if doi:
