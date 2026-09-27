@@ -223,6 +223,7 @@
   venue: 'Curator: The Museum Journal'
   year: 2019
   badge: Curator
+  image: papers/2019_curator_dioramas.webp
   doi: 10.1111/cura.12308
 - id: 2017_chi_video_retargeting
   title: Retargeting Video Tutorials Showing Tools With Surface Contact to Augmented Reality
