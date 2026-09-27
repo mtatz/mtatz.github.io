@@ -12,6 +12,9 @@ plugins:
 
 orcid: 0000-0002-3900-4944
 youtube_channel: mtatzgern
+# Playlists the sync script scans for paper videos (also finds unlisted videos).
+youtube_playlists:
+  - PLexyQu0Zt75BbwY12QJgEKmFEixYE1_f6
 
 exclude:
   - README.md

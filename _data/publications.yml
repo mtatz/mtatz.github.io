@@ -45,6 +45,7 @@
   image: papers/2025_labsidewalk.webp
   doi: 10.1145/3756884.3766006
   open_access: true
+  youtube: gay00yARJwQ
 - id: 2025_spatialmouse
   title: 'SpatialMouse: A Hybrid Pointing Device for Seamless Interaction Across 2D and 3D Space'
   authors: Sebastian Hubenschmid, Johannes Zagermann, Robin Erb, Tiare Feuchtner, Jens Grubert, Markus Tatzgern, Dieter Schmalstieg, Harald Reiterer
@@ -81,6 +82,7 @@
   year: 2025
   badge: ISMAR Demo
   doi: 10.1109/ismar-adjunct68609.2025.00250
+  youtube: 85_WXRAKnHo
 - id: 2025_arkward
   title: 'You’re making things AR-kward: Exploring Augmented Reality In-the-Wild'
   authors: Helen Stefanidi, Jan-Hendrik Sünderkamp, Markus Tatzgern, Alina Itzlinger, Alexander Meschtscherjakov
@@ -91,6 +93,7 @@
   doi: 10.1145/3743740
   award: Honorable Mention for Best Paper
   open_access: true
+  youtube: C0vF-GjDPeA
 - id: 2025_xmas
   title: 'Exploring AR In-the-Wild: An Autoethnographic Study at a Christmas Market'
   authors: Helen Stefanidi, Jan-Hendrik Sünderkamp, Alina Itzlinger, Markus Tatzgern, Alexander Meschtscherjakov
@@ -184,6 +187,7 @@
   badge: IEEE VRW
   image: papers/2022_vr_epr_poster.webp
   doi: 10.1109/vrw55335.2022.00171
+  youtube: dADsQIE64n4
 - id: 2022_lse_hse_vr_shopping
   title: Comparing Low Sensory Enabling (LSE) and High Sensory Enabling (HSE) Virtual Product Presentation Modes in e-Commerce
   authors: Arno Kinzinger, Wienfried Steiner, Markus Tatzgern, Christine Vallaster

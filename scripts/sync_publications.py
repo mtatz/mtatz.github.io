@@ -94,6 +94,49 @@ def youtube_videos(channel):
             for e in root.findall("a:entry", ns)]
 
 
+def _lockups(o, out):
+    if isinstance(o, dict):
+        if "lockupViewModel" in o:
+            v = o["lockupViewModel"]
+            t = v.get("metadata", {}).get("lockupMetadataViewModel", {}).get("title", {}).get("content")
+            if v.get("contentId") and t:
+                out.append((t, v["contentId"]))
+        if "playlistVideoRenderer" in o:  # older page format
+            v = o["playlistVideoRenderer"]
+            out.append(("".join(r.get("text", "") for r in v["title"].get("runs", [])), v["videoId"]))
+        for x in o.values():
+            _lockups(x, out)
+    elif isinstance(o, list):
+        for x in o:
+            _lockups(x, out)
+
+
+def playlist_videos(playlist_id):
+    """All videos of a public playlist, incl. unlisted ones (RSS feeds show only 15 and no unlisted)."""
+    page = get("https://www.youtube.com/playlist?list=%s&hl=en" % playlist_id, accept="text/html").decode()
+    out = []
+    _lockups(json.loads(re.search(r"var ytInitialData = (\{.*?\});</script>", page).group(1)), out)
+    key = re.search(r'"INNERTUBE_API_KEY":"([^"]+)"', page).group(1)
+    ver = re.search(r'"INNERTUBE_CLIENT_VERSION":"([^"]+)"', page).group(1)
+    tokens = re.findall(r'"continuationCommand":\{"token":"([^"]+)"', page)
+    token = tokens[-1] if tokens else None
+    for _ in range(20):  # at most ~2000 videos
+        if not token:
+            break
+        body = json.dumps({"context": {"client": {"clientName": "WEB", "clientVersion": ver, "hl": "en"}},
+                           "continuation": token}).encode()
+        req = urllib.request.Request("https://www.youtube.com/youtubei/v1/browse?key=" + key, data=body,
+                                     headers={"Content-Type": "application/json", "User-Agent": UA})
+        with urllib.request.urlopen(req, timeout=60) as r:
+            data = json.load(r)
+        batch = []
+        _lockups(data, batch)
+        out += batch
+        tokens = re.findall(r'"continuationCommand":\{"token":"([^"]+)"', json.dumps(data))
+        token = tokens[-1] if tokens and batch else None
+    return out
+
+
 # --- BibTeX ---------------------------------------------------------------
 
 def publisher_name(p):
@@ -273,11 +316,18 @@ def main():
         report.append("Added: %s (%s) %s. Needs image, badge and venue check" % (new["title"], new["year"], doi or "no DOI"))
 
     # 2. YouTube videos
+    videos = []
     try:
-        videos = youtube_videos(cfg["youtube_channel"])
+        videos += youtube_videos(cfg["youtube_channel"])
     except Exception as e:
-        videos = []
         warnings.append("YouTube feed failed: %s" % e)
+    for pl in cfg.get("youtube_playlists") or []:
+        try:
+            videos += playlist_videos(pl)
+        except Exception as e:
+            warnings.append("YouTube playlist %s failed: %s" % (pl, e))
+    linked = {p.get("youtube") for p in pubs} | {p.get("talk") for p in pubs}
+    videos = [v for v in videos if v[1] not in linked]
     for p in pubs:
         if p.get("youtube"):
             continue

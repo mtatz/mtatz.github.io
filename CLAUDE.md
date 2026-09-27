@@ -19,7 +19,7 @@ Single-page Jekyll site, deployed to GitHub Pages (custom domain markustatzgern.
 - `assets/fonts/` – self-hosted Oswald and Source Sans 3 (no Google Fonts requests, GDPR).
 - `_layouts/default.html` – head with Open Graph tags and schema.org Person JSON-LD; update `jobTitle`/`affiliation` there when the position changes.
 - `scripts/sync_publications.py` – adds new ORCID works (metadata via Crossref), links matching videos
-  from the YouTube channel `mtatzgern`, marks open-access papers via Unpaywall, and writes missing BibTeX.
+  from the YouTube channel `mtatzgern` and the playlists in `_config.yml` (`youtube_playlists`; needed for unlisted videos), marks open-access papers via Unpaywall, and writes missing BibTeX.
   Runs weekly via `.github/workflows/sync-publications.yml` and opens a PR. Reports missing BibTeX fields.
 - `scripts/optimize_images.py papers/<file>` – converts a new teaser image to 800 px WebP and updates the data file.
 
