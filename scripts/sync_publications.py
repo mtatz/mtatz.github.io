@@ -27,6 +27,7 @@ import yaml
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PUBS = os.path.join(ROOT, "_data", "publications.yml")
 BIB = os.path.join(ROOT, "_data", "bibtex.yml")
+ABSTRACTS = os.path.join(ROOT, "_data", "abstracts.yml")
 IGNORE = os.path.join(ROOT, "_data", "publications_ignore.yml")
 CONFIG = os.path.join(ROOT, "_config.yml")
 EMAIL = "mail@markustatzgern.com"
@@ -84,6 +85,39 @@ def crossref(doi):
 
 def unpaywall(doi):
     return json.loads(get("https://api.unpaywall.org/v2/%s?email=%s" % (urllib.parse.quote(doi), EMAIL)))
+
+
+def clean_abstract(t):
+    t = re.sub(r"<[^>]+>", " ", t)                        # JATS/HTML tags
+    for a, b in (("\ufb01", "fi"), ("\ufb02", "fl"), ("\ufb00", "ff"), ("\ufb03", "ffi"), ("\ufb04", "ffl")):
+        t = t.replace(a, b)                                   # PDF ligatures
+    t = re.sub(r"\s+", " ", t).strip()
+    t = re.sub(r"^(abstract|summary)\s*[:.\-–]?\s*", "", t, flags=re.I)
+    t = re.sub(r"\s*(©|\(c\)|copyright)\s*\d{4}.*$", "", t, flags=re.I)  # trailing copyright notice
+    return t.strip()
+
+
+def fetch_abstract(doi):
+    """Publisher abstract from Crossref if deposited, else OpenAlex (reassembled from its word index)."""
+    try:
+        a = crossref(doi).get("abstract")
+        if a:
+            return clean_abstract(a), "Crossref"
+    except Exception:
+        pass
+    try:
+        w = json.loads(get("https://api.openalex.org/works/doi:%s?mailto=%s" % (urllib.parse.quote(doi), EMAIL)))
+        idx = w.get("abstract_inverted_index") or {}
+        words = sorted((pos, word) for word, positions in idx.items() for pos in positions)
+        text = clean_abstract(" ".join(word for _, word in words))
+        if len(text) > 200 and not re.match(r"(Figure|Fig\.)\s*\d", text):  # OpenAlex sometimes has a caption
+            return text, "OpenAlex"
+    except Exception:
+        pass
+    s2 = json.loads(get("https://api.semanticscholar.org/graph/v1/paper/DOI:%s?fields=abstract" % urllib.parse.quote(doi)))
+    if s2.get("abstract"):
+        return clean_abstract(s2["abstract"]), "Semantic Scholar"
+    return None, None
 
 
 def youtube_videos(channel):
@@ -270,6 +304,7 @@ def main():
     header = "".join(l for l in text.splitlines(True) if l.startswith("#"))
     pubs = yaml.safe_load(text) or []
     bib = {} if refresh or not os.path.exists(BIB) else (yaml.safe_load(open(BIB, encoding="utf-8")) or {})
+    abstracts = (yaml.safe_load(open(ABSTRACTS, encoding="utf-8")) or {}) if os.path.exists(ABSTRACTS) else {}
     ignore = set()
     if os.path.exists(IGNORE):
         ignore = {d.lower() for d in (yaml.safe_load(open(IGNORE)) or [])}
@@ -351,7 +386,19 @@ def main():
                 p["oa_pdf"] = loc["url_for_pdf"]
             report.append("Open access: %s" % p["title"])
 
-    # 4. BibTeX
+    # 4. Abstracts (Crossref, else OpenAlex); existing ones are kept
+    for p in pubs:
+        if p["id"] in abstracts or not p.get("doi"):
+            continue
+        try:
+            text, source = fetch_abstract(p["doi"])
+        except Exception:
+            continue
+        if text and len(text) > 200:
+            abstracts[p["id"]] = text
+            report.append("Abstract added (%s, please check): %s" % (source, p["title"]))
+
+    # 5. BibTeX
     used = {re.match(r"@\w+\{([^,]+),", b).group(1) for b in bib.values()}
     for p in pubs:
         if p["id"] in bib:
@@ -378,6 +425,8 @@ def main():
         dump(PUBS, pubs, header)
         ordered = {p["id"]: bib[p["id"]] for p in pubs if p["id"] in bib}
         dump(BIB, ordered, "# BibTeX per publication id. Generated from Crossref; manual edits are kept.\n")
+        ordered = {p["id"]: abstracts[p["id"]] for p in pubs if p["id"] in abstracts}
+        dump(ABSTRACTS, ordered, "# Abstract per publication id. From Crossref or OpenAlex, or copied from the PDF; manual edits are kept.\n")
 
 
 if __name__ == "__main__":

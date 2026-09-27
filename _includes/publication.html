@@ -7,6 +7,7 @@
 {%- elsif pdf -%}{%- assign href = pdf -%}
 {%- else -%}{%- assign href = nil -%}{%- endif -%}
 {%- assign bib = site.data.bibtex[p.id] -%}
+{%- assign abstract = site.data.abstracts[p.id] -%}
 <li class="pub{% if p.award %} pub-award{% endif %}" id="{{ p.id }}">
   <div class="pub-thumb">
     {%- assign img = p.image | default: "papers/placeholder.svg" -%}
@@ -24,9 +25,14 @@
       {%- if pdf %}<a href="{{ pdf }}">PDF</a>{% endif -%}
       {%- if p.youtube %}<a class="video" href="https://www.youtube.com/watch?v={{ p.youtube }}">&#9654; Video</a>{% endif -%}
       {%- if p.talk %}<a class="video" href="https://www.youtube.com/watch?v={{ p.talk }}">&#9654; Talk</a>{% endif -%}
+      {%- if p.code %}<a href="{{ p.code }}">Code</a>{% endif -%}
       {%- if p.url %}<a href="{{ p.url }}">Project</a>{% endif -%}
+      {%- if abstract %}<button type="button" class="cite-btn" aria-expanded="false" aria-controls="abs-{{ p.id }}">Abstract</button>{% endif -%}
       {%- if bib %}<button type="button" class="cite-btn" aria-expanded="false" aria-controls="bib-{{ p.id }}">Cite</button>{% endif -%}
     </p>
+    {%- if abstract %}
+    <div class="abstract" id="abs-{{ p.id }}" hidden><p>{{ abstract | escape }}</p></div>
+    {%- endif %}
     {%- if bib %}
     <div class="bib" id="bib-{{ p.id }}" hidden>
       <pre><code>{{ bib | escape }}</code></pre>

@@ -12,6 +12,8 @@ Single-page Jekyll site, deployed to GitHub Pages (custom domain markustatzgern.
 - `_data/news.yml` – news items, newest first; one line each, Markdown links allowed, `date: YYYY-MM`.
 - `_data/bibtex.yml` – BibTeX per publication id (Cite button). Generated from Crossref by the sync
   script; hand edits are kept. Entries without Crossref record (DataCite DOIs, no DOI) were completed by hand.
+- `_data/abstracts.yml` – abstract per publication id (Abstract button). Filled by the sync script from Crossref,
+  else OpenAlex, else Semantic Scholar; check new ones (OpenAlex sometimes returns a figure caption). Hand edits are kept.
 - `_includes/publication.html` – markup of one publication entry.
 - `assets/css/site.css` – all styles (do not name it `style.css`; the default GitHub Pages theme overwrites that path).
 - `papers/` – teaser images (`<id>.webp`, max 800 px wide) and author PDFs (`<id>.pdf`). Keep PDF file names:
@@ -19,7 +21,7 @@ Single-page Jekyll site, deployed to GitHub Pages (custom domain markustatzgern.
 - `assets/fonts/` – self-hosted Oswald and Source Sans 3 (no Google Fonts requests, GDPR).
 - `_layouts/default.html` – head with Open Graph tags and schema.org Person JSON-LD; update `jobTitle`/`affiliation` there when the position changes.
 - `scripts/sync_publications.py` – adds new ORCID works (metadata via Crossref), links matching videos
-  from the YouTube channel `mtatzgern` and the playlists in `_config.yml` (`youtube_playlists`; needed for unlisted videos), marks open-access papers via Unpaywall, and writes missing BibTeX.
+  from the YouTube channel `mtatzgern` and the playlists in `_config.yml` (`youtube_playlists`; needed for unlisted videos), marks open-access papers via Unpaywall, and writes missing BibTeX and abstracts.
   Runs weekly via `.github/workflows/sync-publications.yml` and opens a PR. Reports missing BibTeX fields.
 - `scripts/optimize_images.py papers/<file>` – converts a new teaser image to 800 px WebP and updates the data file.
 
@@ -36,6 +38,7 @@ Single-page Jekyll site, deployed to GitHub Pages (custom domain markustatzgern.
   pdf: papers/2025_arkward.pdf    # optional, author version
   youtube: Y_DVrMH3XDs            # optional, video ID only (video figure / teaser)
   talk: yTEOtdAx1iA               # optional, video ID of a talk recording (e.g. ACM SIGCHI channel)
+  code: https://github.com/...    # optional, source code repository
   award: Honorable Mention for Best Paper   # optional, shown as badge
   url: https://...                # optional project page
   open_access: true               # set by sync script (Unpaywall)

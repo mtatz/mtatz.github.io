@@ -1,0 +1,224 @@
+# Abstract per publication id. From Crossref or OpenAlex, or copied from the PDF; manual edits are kept.
+2026_teamspirit: We explore how narrative-driven asymmetric VR experiences can support the development of teamwork-related knowledge, skills, and attitudes (KSAs), such as communication, coordination, trust,
+  and reflexivity. We present the design and evaluation of a tablet-based VR training experience structured around spatial separation, tool asymmetry, and interdependent tasks that require verbal coordination.
+  The experience was designed based on interviews with HR professionals and mapped to a framework of established KSAs. We conducted a co-located user study (N=16) that involved two consecutive collaborative
+  scenarios. Our findings show that users adapted dynamically using verbal exchange, role negotiation, and shared representations to coordinate under asymmetric conditions. We also observed active application
+  of teamwork KSAs. Based on our insights, we present design recommendations for creating effective immersive team training interventions.
+2026_ismar_magnification_lenses: Small-scale objects that are difficult to see or distinguish from their surroundings are common in assembly and maintenance procedures. Augmented reality (AR) instructions
+  involving such small parts may be difficult to perceive and lead to misinterpretations. This paper explores the use of AR magnification visualizations for small-scale instructions. Through an iterative
+  design process and evaluation, we examine how magnified AR views impact user behavior, visual attention, and subjective perception in the context of AR instructions. Our findings demonstrate that live
+  AR magnification assists task guidance, providing a strong foundation for future work on AR-assisted instruction and precision interaction design.
+2026_ismar_action_summaries: Augmented reality instructions help people understand how to operate, assemble, or maintain objects by overlaying visual guidance directly onto the physical environment. However,
+  repeatedly presenting detailed instructions can negatively impact performance. We introduce an interactive AR instruction system that provides detailed guidance on the first occurrence of actions and
+  a summary visualization for repeated actions. We use a multimodal large language model to automatically derive information about actions, groups of actions, and recurring patterns, thereby increasing
+  the scalability of the AR guidance system. A pilot user study shows that summary visualizations are preferred over repetitive step-by-step instructions.
+2026_arotm_chi_ea: Recent advancements in augmented reality (AR) technologies have brought us closer to the vision of everyday ubiquitous computing and pervasive AR use. State-of-the-art AR glasses now
+  enable mobile, on-the-move experiences that extend beyond laboratory settings. This promise has already been explored across diverse mobile contexts, including transportation, entertainment, shopping,
+  and tourism. This workshop focuses on AR on-the-move, examining how AR can support interaction in dynamic settings where environmental and social contexts shift rapidly and users are in locomotion. We
+  will discuss both the unique challenges and the rich opportunities such scenarios present for meaningful augmentation and new forms of interaction. By uniting established scholars and emerging researchers
+  from across HCI, this workshop seeks to map out critical directions for future inquiry. Through hands-on activities and reflection, participants will collectively identify key opportunities, challenges,
+  and next steps for advancing research on AR on-the-move.
+2025_labsidewalk: 'With the emergence of consumer-grade mobile Augmented Reality (AR) head-mounted displays (HMDs), it is increasingly important to study interaction modalities in mobile, outdoor contexts
+  to explore user interactions under real-world conditions and ensure ecological validity. We present findings from a user study examining how state-of-the-art interaction techniques, originally developed
+  for stationary indoor use, perform in outdoor walking contexts. We compare three techniques using a Fitts’ law task: (1) eye gaze for target selection combined with a pinch gesture for activation, (2)
+  hand-controlled raycasting for selection with pinch activation, and (3) a go-go-hand-inspired technique that enables users to reach distant targets via virtual touch with a virtual hand representation.
+  We report both performance metrics and subjective user feedback for these techniques.'
+2025_spatialmouse: We introduce the SpatialMouse, a hybrid pointing device that combines the capabilities of a desktop mouse with the spatial input of a virtual reality (VR) controller, enabling seamless
+  transitions between 2D and 3D interaction spaces in immersive mixed reality environments. Holistic usage scenarios in mixed reality involve tasks suited alternately to 2D or 3D information spaces. Yet,
+  existing input devices excel in either 2D or 3D, but not both, making it necessary to switch between multiple input devices (e.g., mouse and VR controller). Our SpatialMouse addresses this issue, offering
+  the affordances of a desktop mouse for indirect 2D pointing and the spatial capabilities of VR controllers with six degrees of freedom. In a user study with 12 participants, our prototype significantly
+  reduced perceived task load and improved user experience compared to switching between separate devices. We extract design recommendations to further support such hybrid input approaches.
+2025_hybridinput: Hybrid user interfaces offer a promising framework for analysts to leverage the strengths of heterogeneous environments, such as desktops and mixed reality, and transition fluidly between
+  them. Especially for immersive analytics, which often blends 3D interaction spaces with traditional 2D workflows, such hybrid user interfaces can reduce cognitive workload and improve user experience.
+  Prior work has combined desktop-based statistical analysis with an insitu exploration of spatiotemporal data in mixed reality. However, switching between devices and input modalities in such combinations
+  can disrupt users’ flow. We revisit the concept of hybrid input devices that operate seamlessly across 2D and 3D contexts by leveraging the complementary strengths of heterogeneous input devices. We thereby
+  propose a hypothetical hybrid input device that combines input from a mouse and a spatial controller, for which we present potential interaction techniques and discuss potential opportunities and challenges
+  for immersive analytics.
+2025_mobileepr: 'Image-based scene understanding allows Augmented Reality (AR) systems to provide contextual visual guidance in unprepared, real-world environments. While effective on video see-through
+  (VST) head-mounted displays (HMDs), such methods suffer on optical see-through (OST) HMDs due to misregistration between the world-facing camera and the user''s eye perspective. To approximate the user''s
+  true eye view, we implement and evaluate three software-based eye-perspective rendering (EPR) techniques on a commercially available, untethered OST HMD (Microsoft HoloLens 2): (1) Plane-Proxy EPR, projecting
+  onto a fixed-distance plane; (2) Mesh-Proxy EPR, using SLAM-based reconstruction for projection; and (3) Gaze-Proxy EPR, a novel eye-tracking-based method that aligns the projection with the user''s gaze
+  depth. A user study on real-world tasks underscores the importance of accurate EPR and demonstrates gaze-proxy as a lightweight alternative to geometry-based methods. We release our EPR framework as open
+  source.'
+2025_ismar_mobile_epr_demo: 'OST HMDs require correcting for the camera-to-eye offset whenever virtual cues are derived from camera imagery. We demonstrate two methods that align these cues with the user’s
+  view by projecting the processed camera image onto a planar proxy: One keeps this plane at a constant depth, which is sufficient when parallax is small but causes misalignments otherwise, the other uses
+  eye-tracking to adjust the plane dynamically to the user’s fixation, preserving alignment as the user shifts focus. We demonstrate the fixed-distance version on Microsoft HoloLens 2 and Snap AR Glasses,
+  and the gaze-driven version on HoloLens 2.'
+2025_arkward: 'Even though recent technological advancements have led to a growing interest in Augmented Reality (AR) head-mounted displays (HMDs), their actual deployment in everyday, outdoor and on-the-move
+  applications remains uncertain. Most AR research is conducted in controlled laboratory settings, leaving a gap in our understanding of AR’s potentials and complexities in real-world environments. This
+  paper explores the social aspects surrounding AR use in public spaces, by investigating the use of AR HMDs during two distinct use cases: shopping at a farmers market and outdoor presentations. Based
+  on the analysis of observations and interviews with participants, passersby and vendors, we explore social impact of AR and share methodological and technological insights. We contribute seven lessons
+  learned for researchers conducting AR studies in-the-wild. Our findings show that the current understanding of non-users should be revisited for in-the-wild AR studies. Furthermore, current AR HMDs lack
+  social components, inducing awkwardness in social situations, which might fade with continuous exposure.'
+2025_xmas: Given the rapid advancements of Augmented Reality (AR) Head-Mounted Displays (HMDs), researchers are increasingly exploring their potential for everyday use, including outdoor and on-the-move
+  settings. However, studies examining the use of AR HMDs in real-world environments remain scarce. Thus, we conducted an autoethnographic study capturing the lived experience of an AR expert using three
+  different AR HMDs in the context of a crowded Christmas market. Our work contributes first-person insights into the experience, limitations, and social implications of interacting with AR HMDs in-the-wild;
+  it shedding light on the social experience of using AR technology in public spaces and outlining design considerations regarding trust, context-aware deployment, and non-user perceptions. We highlight
+  how device form factors, interface behaviors, and environmental components shape interaction quality, user experience, and non-users’ perception and engagement. Our findings emphasize the importance of
+  adaptive interfaces, improved peripheral awareness, and socially transparent device designs suited for public, real-world use.
+2025_retailing: Functional control in webshops allows consumers to virtually experience the different functions of a product. To date, however, the potential benefits of enabling functional control in online
+  product presentations in addition to standard visual control have only been studied and proven for non-immersive virtual environments but not for immersive virtual reality shopping experiences in webshops.
+  We close this research gap by comparing an immersive product presentation format with visual control (grabbing a product and viewing it from different angles) to that of an immersive product presentation
+  format with additional functional control (experiencing and inspecting the different functionalities of the product) by means of a between-subjects experiment. Our special focus is on the influence of
+  functional control on the hedonic aspects of online shopping since interactive immersive webshops are known to offer particular potential to enhance the hedonistic shopping experience of consumers. Our
+  findings suggest that (1) the possibility to try out product functions in an immersive environment can significantly increase the shopping experience of consumers and that (2) hedonic aspects like the
+  enjoyment of consumers actually seem to play a highly important role in immersive webshops. Accordingly, as a practical implication of our study, companies should consider investing in functional control
+  elements when presenting their products in immersive virtual reality webshops as a way to gain a competitive advantage.
+2024_passive_haptics: We designed a controller-based hand input method that allows users to perceive haptic feedback with typical handheld controllers when interacting with virtual control elements while
+  at the same time benefitting from precise controller-based tracking. We performed an experiment comparing our controller-based input method against native HMD hand tracking. Interestingly, hand tracking
+  was robust and precise during interactions with most control elements in our experimental setup. A surprising outcome was that haptic feedback generally slowed down users during interaction, potentially
+  due to a fear of hitting the physical surface during interaction.
+2024_mobilearsurvey: Due to the continuous improvement of Augmented Reality (AR) head-mounted displays (HMDs), these devices are bound to be increasingly integrated into our daily routines. So far, a major
+  focus of AR research has been on indoor usage and deployment. However, since seamlessly supporting users in their activities while being on-the-move in various outdoor contexts becomes increasingly important,
+  there is a need to investigate the current state-of-the-art of AR technologies while people are in motion outdoors. Therefore, we conducted a systematic literature review of pertinent HCI publications,
+  specifically looking into applications concerning vulnerable road users. We identify the contexts in which such technologies have been researched, prevailing challenges in the field, and applied methodological
+  approaches. Our findings show that most contributions address pedestrians, a shift towards HMDs, and a prevalence of lab studies due to technology limitations. Based on our findings, we discuss trends,
+  existing gaps and opportunities for future research.
+2024_immersive_authoring: This work presents an authoring tool for supporting the creation of immersive instructions for industrial processes. Our system simplifies the creation of instructional content
+  by providing an immersive virtual reality environment that enables expert operators to interact directly with virtual replicas of industrial devices. Hand movements, tool usage, gaze, spoken comments,
+  and machine part movement are recorded using a head-mounted display. Editing of instructions in virtual reality is aided by automatic segmentation of recorded data into individual steps and visualizations
+  of regions with intensive activity. A qualitative evaluation of our system by industrial experts shows that it is a viable alternative to current practices in authoring instructions for assembly and maintenance.
+2024_xr_prototyping: Researching novel user experiences in medicine is challenging due to limited access to equipment and strict ethical protocols. Extended Reality (XR) simulation technologies offer a
+  cost-and time-efficient solution for developing interactive systems. Recent work has shown Extended Reality Prototyping (XRP)’s potential, but its applicability to specific domains like controlling complex
+  machinery needs further exploration. This paper explores the benefits and limitations of XRP in controlling a mobile medical imaging robot. We compare two XR visualization techniques to reduce perceived
+  latency between user input and robot activation. Our XRP validation study demonstrates its potential for comparative studies, but identifies a gap in modeling human behavior in the analytic XRP validation
+  framework.
+2023_CHI_epr_viewman: Optical see-through (OST) head-mounted displays (HMDs) enable users to experience Augmented Reality (AR) support in the form of helpful real-world annotations. Unfortunately, the blend
+  of the environment with virtual augmentations due to semitransparent OST displays often deteriorates the contrast and legibility of annotations. View management algorithms adapt the annotations’ layout
+  to improve legibility based on real-world information, typically captured by built-in HMD cameras. However, the camera views are different from the user’s view through the OST display which decreases
+  the final layout quality. We present eye-perspective view management that synthesizes high-fidelity renderings of the user’s view to optimize annotation placement. Our method significantly improves over
+  traditional camera-based view management in terms of annotation placement and legibility. Eye-perspective optimizations open up opportunities for further research on use cases relying on the user’s true
+  view through OST HMDs.
+2023_xr_prototyping: Extended Reality (XR) technology has matured in recent years, leading to increased use of XR simulations for prototyping novel human-centered interfaces, approximating advanced display
+  hardware, or exploring future user experiences, before realising them in real-world scenarios. However, the validity of utilizing XR prototyping (XRP) as a method for gathering performance data on novel
+  user experiences is still underexplored, i.e, it is not clear if results gathered in simulations can be transferred to a real experience. To address this gap, we propose a validation framework that supports
+  establishing equivalence of performance measures gathered with real products and simulated products and, thus, improve ecological validity of XRP. To demonstrate the utility of the framework, we conduct
+  an exemplary validation study using a Varjo XR-3, a state-of-the-art XR head-mounted display (HMD). The study focuses on steering a small drone and comparing it to interactions with its real-world counterpart.
+  We identify functional fidelity, i.e., functional similarity between real and simulated product, as well as simulation overhead from wearing an HMD as major confounding factors for XRP.
+2022_vr_epr_poster: The optical see-through (OST) head-mounted display (HMD) is a typical platform for Augmented Reality (AR) and allows users to experience virtual augmentations in a wearable form factor.
+  Utilizing information of the real-world background, visualization algorithms adapt the layout and representation of content to improve legibility. Typically, this background information is captured via
+  built-in HMD cameras. However, HMD camera views of the real-world scene are distinctively different to the user's view through the OST display. In this work, we propose eye-perspective rendering (EPR)
+  as a solution to synthesize high fidelity renderings of the user's view for mobile OST HMD to enable adaptation algorithms to utilize visual information as seen from the perspective of the user to improve
+  placement, rendering and, thus, legibility of content.
+2022_lse_hse_vr_shopping: Online shops have become increasingly interactive, using different technologies to create virtual experiences that attempt to simulate a realistic product experience. We explore
+  the impact of high sensory enabling (HSE) virtual product presentation modes using state‐of‐the‐art virtual reality (VR) technology that allows consumers to imitate natural movement and interactions via
+  head‐mounted displays (HMD) and dual hand VR controllers. This will compare the HSE virtual product presentation mode with a typical low sensory enabling (LSE) virtual product presentation mode that utilises
+  conventional computer screens, along with mouse and keyboard inputs, on a desktop computer. For the HSE virtual product presentation mode, the results show significantly higher values for the studied
+  variables, including presence, perceived diagnosticity, attitude towards product, and purchase intention. Shopping frequency has a moderating effect on the significant differences of presence between
+  presentation modes. Our research contributes to theory by building on attitude theory, cue summation theory, as well as repetitive learning and memory to explore and explain the effects of HSE virtual
+  product presentation modes on the constructs considered. For managers and industry leaders, this study identifies the importance of using state‐of‐the‐art technology when creating HSE virtual experiences
+  for their products.
+2022_CHI_aires_mask: Increased levels of interactivity and multi-sensory stimulation have been shown to enhance the immersion of Virtual Reality experiences. We present the AirRes mask that enables users
+  to utilize their breathing for precise natural interactions with the virtual environment without suffering from limitations of the sensing equipment such as motion artifacts. Furthermore, the AirRes mask
+  provides breathing resistance as novel output modality that can be adjusted in real-time by the application. In a user study, we demonstrate the mask’s precision measurements for interaction as well as
+  its ability to use breathing resistance to communicate contextual information such as adverse environmental conditions that affect the user’s virtual avatar. Our results show that the AirRes mask enhances
+  virtual experiences and has the potential to create more immersive scenarios for applications by enforcing the perception of danger or improving situational awareness in training simulations, or for psychotherapy
+  by providing additional physical stimuli.
+2021_eg_tutorial_mr_vis: This tutorial will present the challenges and unique aspects of mixed reality visualization applications such as organization of data for visualization, real-world data sources
+  for visualization, real time photo-realistic rendering techniques, diminished reality rendering techniques and cognitive and perceptual issues. We are also interested in ways that the existing body of
+  research in the graphics and visualization community can be applied in this research area. We expect the tutorial to be a working event with both presentation of state-of- the-art followed by lively discussion
+  about the key issues and challenges in this research area. Our tutorial is open both for academia and industry, and expected to be a community hub for both areas that are interested in an introduction
+  to the unique challenges of mixed reality visualization. We welcome a diverse audience consisting of students, researchers and developers that have a basic understanding of computer graphics and computer
+  vision.
+2021_vr_interaction_fidelity: Today's availability of sophisticated consumer-grade Virtual Reality (VR) hardware provides affordable access to training simulation technology. In contrast to more traditional
+  high fidelity training simulations utilizing physical replicas of control panels that allow natural interaction, users of virtual training often rely on handheld VR controllers to manipulate simulated
+  controls. Therefore, control manipulations of virtual buttons and sliders must be mapped to approximations of real hand manipulations. For instance, the turning of a physical knob with thumb and index
+  finger can be mapped to a gross motor forearm rotation, or a fine motor joystick manipulation when manipulating a controller. In this paper, we present an exploration of hand input approximations of real
+  hands to manipulate the buttons, toggles, knobs and sliders using typical handheld VR controllers. We use common Oculus Quest controllers that rely on capacitive sensing to create basic, approximate hand
+  gestures. We demonstrate the potential of our designs by performing an experiment in which we compare approximate hand gestures against using the controller's joystick that allows fine motor control using
+  thumb input, and a baseline ray-casting interaction that is commonly used in VR applications. We provide a detailed analysis of our interaction designs using the Framework for Interactive Fidelity Analysis
+  (FIFA), which allows us to discuss differences between input approximations and the real-world hand manipulations.
+2020_uist_video_annotated_ar: We present a system for generating and visualizing interactive 3D Augmented Reality tutorials based on 2D video input, which allows viewpoint control at runtime. Inspired by
+  assembly planning, we analyze the input video using a 3D CAD model of the object to determine an assembly graph that encodes blocking relationships between parts. Using an assembly graph enables us to
+  detect assembly steps that are otherwise difficult to extract from the video, and generally improves object detection and tracking by providing prior knowledge about movable parts. To avoid information
+  loss, we combine the 3D animation with relevant parts of the 2D video so that we can show detailed manipulations and tool usage that cannot be easily extracted from the video. To further support user
+  orientation, we visually align the 3D animation with the real-world object by using texture information from the input video. We developed a presentation system that uses commonly available hardware to
+  make our results accessible for home use and demonstrate the effectiveness of our approach by comparing it to traditional video tutorials.
+2019_chi_track_cap: The latest generation of consumer market Head-mounted displays (HMD) now include self-contained inside-out tracking of head motions, which makes them suitable for mobile applications.
+  However, 3D tracking of input devices is either not included at all or requires to keep the device in sight, so that it can be observed from a sensor mounted on the HMD. Both approaches make natural interactions
+  cumbersome in mobile applications. TrackCap, a novel approach for 3D tracking of input devices, turns a conventional smartphone into a precise 6DOF input device for an HMD user. The device can be conveniently
+  operated both inside and outside the HMD's field of view, while it provides additional 2D input and output capabilities.
+2019_curator_dioramas: This paper introduces the AR Perpetual Garden App and highlights reasons why it is unique and important in its use of immersive, augmented reality for informal learning. The design
+  and construction of the application created a virtual diorama based on facts, using realistic 3D models and accurate perspective. Design affordances permit annotations with interactive and multimodal
+  facts and stories, delivering interactive knowledge artifacts. The app combines real and virtual into one holistic and comprehensive learning experience, transferring scientific knowledge to the novice
+  in an instant. The use of immersive augmented reality produced from accurate information, data visualizations, and bioacoustics creates context‐sensitivity experiences inside the gallery and outside in
+  the gardens. Distribution through the Apple and Google app stores to schools and homes can extend the broader impact of the educational mission of the Carnegie Museum of Natural History and its biological
+  research center, the Powdermill Nature Reserve.
+2017_chi_video_retargeting: A video tutorial effectively conveys complex motions, but may be hard to follow precisely because of its restriction to a predetermined viewpoint. Augmented reality (AR) tutorials
+  have been demonstrated to be more effective. We bring the advantages of both together by interactively retargeting conventional, two-dimensional videos into three-dimensional AR tutorials. Unlike previous
+  work, we do not simply overlay video, but synthesize 3D-registered motion from the video. Since the information in the resulting AR tutorial is registered to 3D objects, the user can freely change the
+  viewpoint without degrading the experience. This approach applies to many styles of video tutorials. In this work, we concentrate on a class of tutorials which alter the surface of an object.
+2017_3dui_user_perspective_rendering: Handheld Augmented Reality commonly implements some variant of magic lens rendering, which turns only a fraction of the users real environment into AR while the rest
+  of the environment remains unaffected. Since handheld AR devices are commonly equipped with video see-through capabilities, AR magic lens applications often suffer from spatial distortions, because the
+  AR environment is presented from the perspective of the camera of the mobile device. Recent approaches counteract this distortion based on estimations of the users head position, rendering the scene from
+  the user's perspective. To this end, approaches usually apply face-tracking algorithms on the front camera of the mobile device. However, this demands high computational resources and therefore commonly
+  affects the performance of the application beyond the already high computational load of AR applications. In this paper, we present a method to reduce the computational demands for user perspective rendering
+  by applying lightweight optical flow tracking and an estimation of the users motion before head tracking is started. We demonstrate the suitability of our approach for computationally limited mobile devices
+  and we compare it to device perspective rendering, to head tracked user perspective rendering, as well as to fixed point of view user perspective rendering.
+2016_vr_adaptive_information_density: Augmented Reality (AR) browsers show geo-referenced data in the current view of a user. When the amount of data grows too large, the display quickly becomes cluttered.
+  Clustering items by spatial and semantic attributes can temporarily alleviate the issue, but is not effective against an increasing amount of data. We present an adaptive information density display for
+  AR that balances the amount of presented information against the potential clutter created by placing items on the screen. We use hierarchical clustering to create a level-of-detail structure, in which
+  nodes closer to the root encompass groups of items, while the leaf nodes contain single items. Our method selects items and groups from different levels of this hierarchy based on user-defined preferences
+  and on the amount of visual clutter caused by placing these items. The number of presented items is adapted during user interaction to avoid clutter. We compare our interface to a conventional AR browser
+  interface in a qualitative user study. Users clearly preferred our interface, because it provided a better overview of the data and allowed for easier comparison. In a second study, we evaluated the effect
+  of different degrees of clustering on search and recall tasks. Users generally made fewer errors, when using our interface for a search task, which indicates that the reduced clutter allowed them to stay
+  focused on finding the relevant items.
+2016_tvcg_temporal_coherence_strategies: Temporal coherence of annotations is an important factor in augmented reality user interfaces and for information visualization. In this paper, we empirically evaluate
+  four different techniques for annotation. Based on these findings, we follow up with subjective evaluations in a second experiment. Results show that presenting annotations in object space or image space
+  leads to a significant difference in task performance. Furthermore, there is a significant interaction between rendering space and update frequency of annotations. Participants improve significantly in
+  locating annotations, when annotations are presented in object space, and view management update rate is limited. In a follow-up experiment, participants appear to be more satisfied with limited update
+  rate in comparison to a continuous update rate of the view management system.
+2014_pmc_oce_techniques: Augmented reality (AR) enables users to retrieve additional information about real world objects and locations. Exploring such location-based information in AR requires physical
+  movement to different viewpoints, which may be tiring and even infeasible when viewpoints are out of reach. In this paper, we present object-centric exploration techniques for handheld AR that allow users
+  to access information freely using a virtual copy metaphor. We focus on the design of techniques that allow the exploration of large real world objects. We evaluated our interfaces in a series of studies
+  in controlled conditions and compared them to a 3D map interface, which is a more common method for accessing location-based information. Based on our findings, we put forward design recommendations that
+  should be considered by future generations of location-based AR browsers, 3D tourist guides or situated urban planning.
+2014_vr_transitional_if: Augmented Reality (AR) applications require knowledge about the real world environment in which they are used. This knowledge is often gathered while developing the AR application
+  and stored for future uses of the application. Consequently, changes to the real world lead to a mismatch between the previously recorded data and the real world. New capturing techniques based on dense
+  Simultaneous Localization and Mapping (SLAM) not only allow users to capture real world scenes at run-time, but also enables them to capture changes of the world. However, instead of using previously
+  recorded and prepared scenes, users must interact with an unprepared environment. In this paper, we present a set of new interaction techniques that support users in handling captured real world environments.
+  The techniques present virtual viewpoints of the scene based on a scene analysis and provide natural transitions between the AR view and virtual viewpoints. We demonstrate our approach with a SLAM based
+  prototype that allows us to capture a real world scene and describe example applications of our system.
+2014_vr_hedgehog: 'Annotations of objects in 3D environments are commonly controlled using view management techniques. State-of-the-art view management strategies for external labels operate in 2D image
+  space. This creates problems, because the 2D view of a 3D scene changes over time, and temporal behavior of elements in a 3D scene is not obvious in 2D image space. We propose managing the placement of
+  external labels in 3D object space instead. We use 3D geometric constraints to achieve label placement that fulfills the desired objectives (e.g., avoiding overlapping labels), but also behaves consistently
+  over time as the viewpoint changes. We propose two geometric constraints: a 3D pole constraint, where labels move along a 3D pole sticking out from the annotated object, and a plane constraint, where
+  labels move in a dominant plane in the world. This formulation is compatible with standard optimization approaches for labeling, but overcomes the lack of temporal coherence.'
+2013_jvrc_exploring_distant_objects: Augmented reality (AR) enables users to retrieve additional information about the real world objects and locations. Exploring such location-based information in AR requires
+  physical movement to different viewpoints, which may be tiring and even infeasible when viewpoints are out of reach. In this paper, we present object-centric exploration techniques for handheld AR that
+  allow users to access information freely using a virtual copy metaphor to explore large real world objects. We evaluated our interfaces in controlled conditions and collected first experiences in a real
+  world pilot study. Based on our findings, we put forward design recommendations that should be considered by future generations of location-based AR browsers, 3D tourist guides, or in situated urban planning.
+2013_vr_dynamic_compact_vis: In Augmented Reality (AR), careless augmentations can easily lead to information overflow. Especially on small screen devices, only a limited amount of information can be displayed
+  comprehensively. Compact visualization filters data by reducing redundancies and creating a layout of the remaining information. Previously, this approach was applied to create static compact explosion
+  diagrams. In this paper, we extend the approach to annotations, which are a major source of information in AR, and create compact layouts of annotations and annotated explosion diagrams. We present methods
+  to transfer compact visualizations to dynamic AR settings and achieve interactive frame rates even on limited-resource hardware, such as mobile phones. Moreover, we create temporally coherent and scene-aware
+  layouts.
+2012_ismar_image_driven_viewmanagement: In this paper, we introduce a novel view management technique for placing labels in Augmented Reality systems. A common issue in many Augmented Reality applications
+  is the absence of knowledge of the real environment, limiting the efficient representation and optimal layout of the digital information augmented onto the real world. To overcome this problem, we introduce
+  an image-based approach, which combines a visual saliency algorithm with edge analysis to identify potentially important image regions and geometric constraints for placing labels. Our proposed solution
+  also includes adaptive rendering techniques that allow a designer to control the appearance of depth cues. We describe the results obtained from a user study considering different scenarios, which we
+  performed for validating our approach. Our technique will provide special benefits to Augmented Reality browsers that usually lack scene knowledge, but also to many other applications in the domain of
+  Augmented Reality such as cultural heritage and maintenance applications.
+2011_cag_multiperspective_compact: This article presents a system to automatically generate compact explosion diagrams. Inspired by handmade illustrations, our approach reduces the complexity of an explosion
+  diagram by rendering an exploded view only for a suitable subset of the assemblies of an object. However, the exploded views are chosen so that they allow inferring the remaining unexploded assemblies
+  of the entire 3D model. In particular, our approach demonstrates the assembly of a set of identical groups of parts by presenting an exploded view only for a single representative. In order to identify
+  the representatives, our system automatically searches for recurring subassemblies. It selects representatives depending on a quality evaluation of their potential exploded view. Our system takes into
+  account visibility information of both the exploded view of a potential representative as well as visibility information of the remaining unexploded assemblies. This allows rendering a balanced compact
+  explosion diagram, consisting of a clear presentation of the exploded representatives as well as the unexploded remaining assemblies. Since representatives may interfere with one another, our system furthermore
+  optimizes combinations of representatives. The optimization process also generates good views on the explosion diagram. Labels are added to the explosion diagram to increase the visibility of small or
+  occluded parts. Throughout this article, we show a number of examples, which all have been rendered from unmodified 3D CAD data.
+2011_ismar_embedded_views: In this paper, we present virtual embedded views used for turn-based pedestrian navigation in Augmented Reality (AR). Embedded views allow users to see around occluding structures
+  and at the same time seamlessly integrate the augmented navigation aid into the otherwise occluded view. Users get a preview on upcoming route changes, without the need to consult an additional map view.
+  We compare embedded views to other methods revealing the occluded navigation aids. We demonstrate that the technique is more screen-space efficient when compared to a typical x-ray vision technique, and
+  may better facilitate the mental linking of information, when compared to a mirror.
+2010_npar_compact_explosion_diagrams: This paper presents a system to automatically generate compact explosion diagrams. Inspired by handmade illustrations, our approach reduces the complexity of an explosion
+  diagram by rendering an exploded view only for a subset of the assemblies of an object. However, the exploded views are chosen so that they allow inference of the remaining unexploded assemblies of the
+  entire 3D model. In particular, our approach demonstrates the assembly of a set of identical groups of parts, by presenting an exploded view only for a single representative. In order to identify the
+  representatives, our system automatically searches for recurring subassemblies. It selects representatives depending on a quality evaluation of their potential exploded view. Our system takes into account
+  visibility information of both the exploded view of a potential representative as well as visibility information of the remaining unexploded assemblies. This allows rendering a balanced compact explosion
+  diagram, consisting of a clear presentation of the exploded representatives as well as the unexploded remaining assemblies. Since representatives may interfere with one another, our system furthermore
+  optimizes combinations of representatives. Throughout this paper we show a number of examples, which have all been rendered from unmodified 3D CAD models.
+2009_vr_explosion_diagrams: This article introduces explosion diagrams to augmented reality (AR) applications. It presents algorithms to seamlessly integrate an object's explosion diagram into a real world
+  environment, including the AR rendering of relocated objects textured with live video and the restoration of visual information which are hidden behind relocated objects. It demonstrates several types
+  of visualizations for convincing AR explosion diagrams and it discusses visualizations of exploded parts as well as visual links conveying their relocation direction. Furthermore, we show the integration
+  of our rendering and visualization techniques in an AR framework, which is able to automatically compute a diagram's layout and an animation of its corresponding explosion.

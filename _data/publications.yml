@@ -1,5 +1,5 @@
 # Publications shown on the homepage (newest first; order in this file = order on the page).
-# Fields: id, title, authors, venue, year, badge (required); image, doi, pdf, youtube (video ID), talk (video ID of talk recording), award, url,
+# Fields: id, title, authors, venue, year, badge (required); image, doi, pdf, youtube (video ID), talk (video ID of talk recording), code (repository URL), award, url,
 # open_access, oa_pdf (optional; the last two are filled by the sync script from Unpaywall).
 # Images and PDFs live in /papers/. Entries are added by scripts/sync_publications.py (ORCID) or by hand.
 - id: 2026_teamspirit
@@ -75,6 +75,7 @@
   doi: 10.1109/tvcg.2025.3616739
   youtube: Y_DVrMH3XDs
   open_access: true
+  code: https://github.com/DigitalRealitiesLab/MobileEPR
 - id: 2025_ismar_mobile_epr_demo
   title: 'Mobile Eye-perspective Rendering: Alignment of Image-based Vision Augmentations for Optical See-through Head-mounted Displays'
   authors: Gerlinde Emsenhuber, Michael Smirnov, Tobias Langlotz, Denis Kalkofen, Stefanie Zollmann, Markus Tatzgern
@@ -179,6 +180,7 @@
   youtube: WMlBGbSusv8
   open_access: true
   oa_pdf: https://ieeexplore.ieee.org/ielx7/10316350/10316351/10316446.pdf
+  code: https://github.com/DigitalRealitiesLab/DroneSimulation
 - id: 2022_vr_epr_poster
   title: Towards Eye-Perspective Rendering for Optical See-Through Head-Mounted Displays
   authors: Gerlinde Emsenhuber, Michael Domhardt, Tobias Langlotz, Denis Kalkofen, Markus Tatzgern
@@ -211,6 +213,7 @@
   open_access: true
   oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3491102.3502090
   talk: SEtVrGNjphA
+  code: https://github.com/DigitalRealitiesLab/AirResMask
 - id: 2021_eg_tutorial_mr_vis
   title: Visualization and Graphics in Mixed Reality
   authors: Denis Kalkofen, Shohei Mori, Markus Tatzgern

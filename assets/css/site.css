@@ -107,7 +107,11 @@ h3.year { font-size: 1.3rem; color: var(--muted); margin: 1.8rem 0 .6rem; border
   border: 1px solid var(--accent); border-radius: 3px; padding: .05rem .55rem; margin: .3rem .4rem 0 0;
 }
 .cite-btn[aria-expanded="true"] { background: var(--accent); color: var(--bg); }
-.bib { margin-top: .5rem; }
+.bib, .abstract { margin-top: .5rem; }
+.abstract p {
+  margin: 0; padding: .7rem .8rem; font-size: .92rem; line-height: 1.5;
+  background: var(--thumb-bg); border: 1px solid var(--line); border-radius: 4px;
+}
 .bib pre {
   margin: 0 0 .3rem; padding: .7rem .8rem; overflow-x: auto; font-size: .8rem; line-height: 1.4;
   background: var(--thumb-bg); border: 1px solid var(--line); border-radius: 4px;
