@@ -34,7 +34,8 @@ Single-page Jekyll site, deployed to GitHub Pages (custom domain markustatzgern.
   image: papers/2025_arkward.png  # optional; without it papers/placeholder.svg is shown
   doi: 10.1145/3743740            # without https://doi.org/
   pdf: papers/2025_arkward.pdf    # optional, author version
-  youtube: Y_DVrMH3XDs            # optional, video ID only
+  youtube: Y_DVrMH3XDs            # optional, video ID only (video figure / teaser)
+  talk: yTEOtdAx1iA               # optional, video ID of a talk recording (e.g. ACM SIGCHI channel)
   award: Honorable Mention for Best Paper   # optional, shown as badge
   url: https://...                # optional project page
   open_access: true               # set by sync script (Unpaywall)

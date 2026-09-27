@@ -1,5 +1,5 @@
 # Publications shown on the homepage (newest first; order in this file = order on the page).
-# Fields: id, title, authors, venue, year, badge (required); image, doi, pdf, youtube (video ID), award, url,
+# Fields: id, title, authors, venue, year, badge (required); image, doi, pdf, youtube (video ID), talk (video ID of talk recording), award, url,
 # open_access, oa_pdf (optional; the last two are filled by the sync script from Unpaywall).
 # Images and PDFs live in /papers/. Entries are added by scripts/sync_publications.py (ORCID) or by hand.
 - id: 2026_teamspirit
@@ -52,6 +52,7 @@
   badge: VRST
   image: papers/2025_spatialmouse.webp
   doi: 10.1145/3756884.3766047
+  youtube: vRS1W8I82Qw
   open_access: true
   oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3756884.3766047
 - id: 2025_hybridinput
@@ -158,6 +159,7 @@
   image: papers/2023_CHI_epr_viewman.webp
   doi: 10.1145/3544548.3581059
   youtube: RkgUocKWa6Y
+  talk: yTEOtdAx1iA
   open_access: true
   oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3544548.3581059
 - id: 2023_xr_prototyping
@@ -197,9 +199,11 @@
   badge: CHI
   image: papers/2022_CHI_aires_mask.webp
   doi: 10.1145/3491102.3502090
+  youtube: Hhk3NFco85o
   award: Honorable Mention for Best Paper
   open_access: true
   oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3491102.3502090
+  talk: SEtVrGNjphA
 - id: 2021_eg_tutorial_mr_vis
   title: Visualization and Graphics in Mixed Reality
   authors: Denis Kalkofen, Shohei Mori, Markus Tatzgern
@@ -207,6 +211,7 @@
   year: 2021
   badge: EG Tutorial
   doi: 10.2312/egt.20211036
+  talk: RIr28JDuveA
 - id: 2021_vr_interaction_fidelity
   title: Exploring Input Approximations for Control Panels in Virtual Reality
   authors: Markus Tatzgern, Christoph Birgmann
@@ -215,6 +220,7 @@
   badge: IEEE VR
   image: papers/2021_vr_interaction_fidelity.webp
   doi: 10.1109/vr50410.2021.00092
+  youtube: o-x0RB6WoiI
 - id: 2020_uist_video_annotated_ar
   title: Video-Annotated Augmented Reality Assembly Tutorials
   authors: Masahiro Yamaguchi, Shohei Mori, Peter Mohr, Markus Tatzgern, Ana Stanescu, Hideo Saito, Denis Kalkofen
@@ -223,6 +229,8 @@
   badge: UIST
   image: papers/2020_uist_video_annotated_ar.webp
   doi: 10.1145/3379337.3415819
+  youtube: m8uUDR8DERY
+  talk: PUtGlPcR9f0
 - id: 2019_chi_track_cap
   title: 'TrackCap: Enabling Smartphones for 3D Interaction on Mobile Head-Mounted Displays'
   authors: Peter Mohr, Markus Tatzgern, Tobias Langlotz, Andreas Lang, Dieter Schmalstieg, Denis Kalkofen
@@ -231,6 +239,8 @@
   badge: CHI
   image: papers/2019_chi_track_cap.webp
   doi: 10.1145/3290605.3300815
+  youtube: 4lIx0qxJYPQ
+  talk: De4AH4Qic64
 - id: 2019_curator_dioramas
   title: Augmented Reality Brings the Real World into Natural History Dioramas with Data Visualizations and Bioacoustics at the Carnegie Museum of Natural History
   authors: Maria C. R. Harrington, Markus Tatzgern, Tom Langer, John W. Wenzel
@@ -247,6 +257,7 @@
   badge: CHI
   image: papers/2017_chi_video_retargeting.webp
   doi: 10.1145/3025453.3025688
+  youtube: FWytd1m6dKk
 - id: 2017_3dui_user_perspective_rendering
   title: Adaptive User Perspective Rendering for Handheld Augmented Reality
   authors: Peter Mohr, Markus Tatzgern, Jens Grubert, Dieter Schmalstieg, Denis Kalkofen

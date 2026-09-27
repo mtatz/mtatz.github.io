@@ -23,6 +23,7 @@
       {%- if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif -%}
       {%- if pdf %}<a href="{{ pdf }}">PDF</a>{% endif -%}
       {%- if p.youtube %}<a class="video" href="https://www.youtube.com/watch?v={{ p.youtube }}">&#9654; Video</a>{% endif -%}
+      {%- if p.talk %}<a class="video" href="https://www.youtube.com/watch?v={{ p.talk }}">&#9654; Talk</a>{% endif -%}
       {%- if p.url %}<a href="{{ p.url }}">Project</a>{% endif -%}
       {%- if bib %}<button type="button" class="cite-btn" aria-expanded="false" aria-controls="bib-{{ p.id }}">Cite</button>{% endif -%}
     </p>
