@@ -87,6 +87,22 @@ def unpaywall(doi):
     return json.loads(get("https://api.unpaywall.org/v2/%s?email=%s" % (urllib.parse.quote(doi), EMAIL)))
 
 
+def oa_pdf_url(doi, u):
+    """Direct PDF of an open-access paper: any Unpaywall location with a PDF (publisher first),
+    else the ACM PDF address, else an arXiv version."""
+    locs = sorted(u.get("oa_locations") or [], key=lambda l: l.get("host_type") != "publisher")
+    for l in locs:
+        if l.get("url_for_pdf"):
+            return l["url_for_pdf"]
+    if doi.lower().startswith("10.1145/"):
+        return "https://dl.acm.org/doi/pdf/" + doi
+    for l in locs:
+        m = re.search(r"10\.48550/arxiv\.(\d{4}\.\d{4,5})", l.get("url") or "", re.I)
+        if m:
+            return "https://arxiv.org/pdf/" + m.group(1)
+    return None
+
+
 def clean_abstract(t):
     t = re.sub(r"<[^>]+>", " ", t)                        # JATS/HTML tags
     for a, b in (("\ufb01", "fi"), ("\ufb02", "fl"), ("\ufb00", "ff"), ("\ufb03", "ffi"), ("\ufb04", "ffl")):
@@ -371,20 +387,23 @@ def main():
             p["youtube"] = best[1]
             report.append("Video linked: %s -> https://youtu.be/%s" % (p["title"], best[1]))
 
-    # 3. Open access via Unpaywall
+    # 3. Open access via Unpaywall: find a direct PDF, not just the landing page
     for p in pubs:
-        if not p.get("doi") or p.get("pdf") or p.get("open_access"):
+        if not p.get("doi") or p.get("pdf") or p.get("oa_pdf"):
             continue
         try:
             u = unpaywall(p["doi"])
         except Exception:
             continue
-        loc = u.get("best_oa_location")
-        if u.get("is_oa") and loc:
-            p["open_access"] = True
-            if loc.get("url_for_pdf"):
-                p["oa_pdf"] = loc["url_for_pdf"]
-            report.append("Open access: %s" % p["title"])
+        if not u.get("is_oa"):
+            continue
+        pdf = oa_pdf_url(p["doi"], u)
+        changed = not p.get("open_access") or pdf
+        p["open_access"] = True
+        if pdf:
+            p["oa_pdf"] = pdf
+        if changed:
+            report.append("Open access%s: %s" % (" (PDF)" if pdf else "", p["title"]))
 
     # 4. Abstracts (Crossref, else OpenAlex); existing ones are kept
     for p in pubs:

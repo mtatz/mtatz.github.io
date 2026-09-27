@@ -11,6 +11,7 @@
   doi: 10.1145/3817040
   open_access: true
   image: papers/2026_teamspirit.webp
+  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3817040
 - id: 2026_ismar_magnification_lenses
   title: Magnification Lenses for Small-Scale Augmented Reality Instructions
   authors: Lucchas Ribeiro Skreinig, Denis Kalkofen, David Ritter, Peter Mohr, Markus Tatzgern, Dieter Schmalstieg, Ana Stanescu
@@ -36,6 +37,7 @@
   badge: CHI Workshop
   doi: 10.1145/3772363.3778775
   open_access: true
+  oa_pdf: https://openresearch-repository.anu.edu.au/bitstreams/f3e3cbfa-7eb9-4eeb-81fa-1e5ee4bbb5ad/download
 - id: 2025_labsidewalk
   title: 'From Lab to Sidewalk: Exploring AR Interaction Techniques Outdoors and in Motion using Fitts’ Law'
   authors: Jan-Hendrik Sünderkamp, Helen Stefanidi, Alexander Meschtscherjakov, Markus Tatzgern
@@ -46,6 +48,7 @@
   doi: 10.1145/3756884.3766006
   open_access: true
   youtube: gay00yARJwQ
+  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3756884.3766006
 - id: 2025_spatialmouse
   title: 'SpatialMouse: A Hybrid Pointing Device for Seamless Interaction Across 2D and 3D Space'
   authors: Sebastian Hubenschmid, Johannes Zagermann, Robin Erb, Tiare Feuchtner, Jens Grubert, Markus Tatzgern, Dieter Schmalstieg, Harald Reiterer
@@ -76,6 +79,7 @@
   youtube: Y_DVrMH3XDs
   open_access: true
   code: https://github.com/DigitalRealitiesLab/MobileEPR
+  oa_pdf: https://arxiv.org/pdf/2509.11653
 - id: 2025_ismar_mobile_epr_demo
   title: 'Mobile Eye-perspective Rendering: Alignment of Image-based Vision Augmentations for Optical See-through Head-mounted Displays'
   authors: Gerlinde Emsenhuber, Michael Smirnov, Tobias Langlotz, Denis Kalkofen, Stefanie Zollmann, Markus Tatzgern
@@ -95,6 +99,7 @@
   award: Honorable Mention for Best Paper
   open_access: true
   youtube: C0vF-GjDPeA
+  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3743740
 - id: 2025_xmas
   title: 'Exploring AR In-the-Wild: An Autoethnographic Study at a Christmas Market'
   authors: Helen Stefanidi, Jan-Hendrik Sünderkamp, Alina Itzlinger, Markus Tatzgern, Alexander Meschtscherjakov
@@ -137,6 +142,7 @@
   image: papers/mobilearsuvey2024.webp
   doi: 10.1145/3676490
   open_access: true
+  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3676490
 - id: 2024_immersive_authoring
   title: Immersive Authoring by Demonstration of Industrial Procedures
   authors: Lucchas Ribeiro Skreinig, Peter Mohr, Bianca Berger, Markus Tatzgern, Dieter Schmalstieg, Denis Kalkofen
