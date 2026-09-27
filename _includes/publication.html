@@ -9,7 +9,7 @@
 {%- assign bib = site.data.bibtex[p.id] -%}
 {%- assign abstract = site.data.abstracts[p.id] -%}
 <li class="pub{% if p.award %} pub-award{% endif %}" id="{{ p.id }}">
-  <div class="pub-thumb">
+  <div class="pub-thumb{% unless p.image %} no-image{% endunless %}">
     {%- assign img = p.image | default: "papers/placeholder.svg" -%}
     {% if href %}<a href="{{ href }}" tabindex="-1" aria-hidden="true">{% endif -%}
     <img src="{{ img | prepend: '/' | relative_url }}" alt="{% if p.image %}Teaser image: {{ p.title | escape }}{% endif %}" width="200" height="125" loading="lazy" decoding="async">
@@ -19,12 +19,13 @@
     {%- if p.award %}<p class="award-badge">&#127942; {{ p.award }}</p>{% endif %}
     <p class="pub-title">{% if p.badge %}<span class="venue-badge">{{ p.badge }}</span> {% endif %}{% if href %}<a href="{{ href }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</p>
     <p class="pub-authors">{{ p.authors | replace: "Markus Tatzgern", "<strong>Markus Tatzgern</strong>" }}</p>
-    <p class="pub-venue"><em>{{ p.venue }}</em>, {{ p.year }}{% if p.open_access %} <span class="oa">Open Access</span>{% endif %}</p>
+    <p class="pub-venue"><em>{{ p.venue }}</em>, {{ p.year }}</p>
     <p class="pub-links">
-      {%- if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI</a>{% endif -%}
-      {%- if pdf %}<a href="{{ pdf }}">PDF</a>{% endif -%}
-      {%- if p.youtube %}<a class="video" href="https://www.youtube.com/watch?v={{ p.youtube }}">&#9654; Video</a>{% endif -%}
-      {%- if p.talk %}<a class="video" href="https://www.youtube.com/watch?v={{ p.talk }}">&#9654; Talk</a>{% endif -%}
+      {%- capture oa %}{% if p.open_access %} <span class="oa-note">(open access)</span>{% endif %}{% endcapture -%}
+      {%- if p.doi %}<a href="https://doi.org/{{ p.doi }}">DOI{% unless pdf %}{{ oa }}{% endunless %}</a>{% endif -%}
+      {%- if pdf %}<a href="{{ pdf }}">PDF{{ oa }}</a>{% endif -%}
+      {%- if p.youtube %}<a href="https://www.youtube.com/watch?v={{ p.youtube }}">&#9654; Video</a>{% endif -%}
+      {%- if p.talk %}<a href="https://www.youtube.com/watch?v={{ p.talk }}">&#9654; Talk</a>{% endif -%}
       {%- if p.code %}<a href="{{ p.code }}">Code</a>{% endif -%}
       {%- if p.url %}<a href="{{ p.url }}">Project</a>{% endif -%}
       {%- if abstract %}<button type="button" class="cite-btn" aria-expanded="false" aria-controls="abs-{{ p.id }}">Abstract</button>{% endif -%}
