@@ -35,6 +35,7 @@
   venue: Nordic Conference on Human-Computer Interaction (NordiCHI)
   year: 2026
   badge: NordiCHI
+  image: papers/2026_nordichi_arctivities.webp
   doi: 10.1145/3829807.3829863
   open_access: true
 - id: 2026_nordichi_ai_ethics
@@ -43,6 +44,7 @@
   venue: Nordic Conference on Human-Computer Interaction (NordiCHI)
   year: 2026
   badge: NordiCHI
+  image: papers/2026_nordichi_ai_ethics.webp
   doi: 10.1145/3829807.3829864
   open_access: true
 - id: 2026_nordichi_guidance
@@ -51,6 +53,7 @@
   venue: Nordic Conference on Human-Computer Interaction Adjunct (NordiCHI Adjunct), Poster
   year: 2026
   badge: NordiCHI Poster
+  image: papers/2026_nordichi_guidance.webp
   doi: 10.1145/3821402.3830134
 - id: 2026_arotm_chi_ea
   title: 'Next Steps for Augmented Reality On-the-Move: Challenges and Opportunities'
