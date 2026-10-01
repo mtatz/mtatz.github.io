@@ -1,4 +1,49 @@
 # BibTeX per publication id. Generated from Crossref; manual edits are kept.
+2026_everyday_arctivities_wild: |-
+  @inproceedings{stefanidi2026everyday,
+    author = {Stefanidi, Helen and Sünderkamp, Jan-Hendrik and Tatzgern, Markus and Itzlinger, Alina and Meschtscherjakov, Alexander},
+    title = {Everyday {ARctivities} {in-the-Wild}: Insights from a Farmers Market Field Study},
+    booktitle = {Proceedings of the 14th Nordic Conference on Human-Computer Interaction},
+    series = {NordiCHI '26},
+    pages = {1--11},
+    year = {2026},
+    month = oct,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Vaasa Finland},
+    doi = {10.1145/3829807.3829863},
+    url = {https://doi.org/10.1145/3829807.3829863}
+  }
+2026_ethics_designing_interactive: |-
+  @inproceedings{young2026ethics,
+    author = {Young, Faith and Lienbacher, Anna and Beuthel, Janne Mascha and Prem, Erich and Havas, Clemens and Tatzgern, Markus},
+    title = {Ethics and {AI}: Designing an Interactive {Self-Assessment} Tool for Ethical Implementation of {AI-enabled} Projects},
+    booktitle = {Proceedings of the 14th Nordic Conference on Human-Computer Interaction},
+    series = {NordiCHI '26},
+    pages = {1--18},
+    year = {2026},
+    month = oct,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Vaasa Finland},
+    doi = {10.1145/3829807.3829864},
+    url = {https://doi.org/10.1145/3829807.3829864}
+  }
+2026_conceptualising_initial_design: |-
+  @inproceedings{young2026conceptualising,
+    author = {Young, Faith and Tatzgern, Markus and Meschtscherjakov, Alexander and Smeddinck, Jan David},
+    title = {Conceptualising an Initial Design Space for Guidance in Digital Physical Activity Support},
+    booktitle = {Adjunct Proceedings of the 14th Nordic Conference on Human-Computer Interaction},
+    series = {NordiCHI '26 Adjunct},
+    pages = {1--9},
+    year = {2026},
+    month = oct,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Vaasa Finland},
+    doi = {10.1145/3821402.3830134},
+    url = {https://doi.org/10.1145/3821402.3830134}
+  }
 2026_teamspirit: |-
   @article{paraschivoiu2026where,
     author = {Paraschivoiu, Irina and Layer-Wagner, Thomas and Neundlinger, Klaus and Rack, Simone and Tatzgern, Markus},

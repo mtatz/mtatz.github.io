@@ -2,6 +2,28 @@
 # Fields: id, title, authors, venue, year, badge (required); image, doi, pdf, youtube (video ID), talk (video ID of talk recording), code (repository URL), award, url,
 # open_access, oa_pdf (optional; the last two are filled by the sync script from Unpaywall).
 # Images and PDFs live in /papers/. Entries are added by scripts/sync_publications.py (ORCID) or by hand.
+- id: 2026_everyday_arctivities_wild
+  title: 'Everyday ARctivities in-the-Wild: Insights from a Farmers Market Field Study'
+  authors: Helen Stefanidi, Jan-Hendrik Sünderkamp, Markus Tatzgern, Alina Itzlinger, Alexander Meschtscherjakov
+  venue: Proceedings of the 14th Nordic Conference on Human-Computer Interaction
+  year: 2026
+  doi: 10.1145/3829807.3829863
+  open_access: true
+  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3829807.3829863
+- id: 2026_ethics_designing_interactive
+  title: 'Ethics and AI: Designing an Interactive Self-Assessment Tool for Ethical Implementation of AI-enabled Projects'
+  authors: Faith Young, Anna Lienbacher, Janne Mascha Beuthel, Erich Prem, Clemens Havas, Markus Tatzgern
+  venue: Proceedings of the 14th Nordic Conference on Human-Computer Interaction
+  year: 2026
+  doi: 10.1145/3829807.3829864
+  open_access: true
+  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3829807.3829864
+- id: 2026_conceptualising_initial_design
+  title: Conceptualising an Initial Design Space for Guidance in Digital Physical Activity Support
+  authors: Faith Young, Markus Tatzgern, Alexander Meschtscherjakov, Jan David Smeddinck
+  venue: Adjunct Proceedings of the 14th Nordic Conference on Human-Computer Interaction
+  year: 2026
+  doi: 10.1145/3821402.3830134
 - id: 2026_teamspirit
   title: Where's the Team Spirit? An Exploratory Study on Team Development Through Co-located Tablet-Based VR
   authors: Irina Paraschivoiu, Thomas Layer-Wagner, Klaus Neundlinger, Simone Rack, Markus Tatzgern

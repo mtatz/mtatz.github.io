@@ -1,4 +1,22 @@
 # Abstract per publication id. From Crossref or OpenAlex, or copied from the PDF; manual edits are kept.
+2026_everyday_arctivities_wild: 'Augmented Reality (AR) Head-Mounted Displays (HMD) are often envisioned as future replacements for smartphones in everyday tasks. Understanding their performance in realistic
+  settings is crucial for assessing their potential and limitations. We conducted a within-subject field study (n = 12) where participants completed a shopping task at a crowded outdoor farmers market,
+  utilizing a shopping list app and three interaction options: a smartphone and two AR interactions (hand- and head-anchored). Our results indicate that the smartphone outperformed both AR HMD conditions
+  in terms of workload, ease-of-use, and pragmatic quality. While AR HMDs scored higher in hedonic quality, participants still favored the smartphone experience. Post-task interviews offered perspectives
+  into user preferences, contextual challenges and how the different interactions shaped shopping experiences. Based on our findings, we derive insights into using HMDs in an everyday on-the-move task,
+  and highlight lessons learned for designing such AR experiences.'
+2026_ethics_designing_interactive: As artificial intelligence (AI) becomes increasingly integrated into products and services, the need for practical, context-sensitive tools to support ethical design processes
+  has grown. While numerous artificial intelligence (AI) ethics guidelines exist, they often remain abstract and difficult to apply in practice. In this paper, we present the design and evaluation of an
+  interactive self-assessment tool that enables interdisciplinary teams to assess ethical risks and opportunities throughout the lifecycle of AI-enabled projects. Grounded in empirical research, including
+  expert interviews, a stakeholder workshop, and evaluations with practitioners, the tool offers actionable recommendations tailored to project-specific factors and stakeholder perspectives. We contribute
+  insights into the integration of our tool into collaborative projects and implications for the design of self-assessment tools, such as balancing guidance with flexibility, enabling ongoing reflection,
+  and avoiding ethics-washing. Finally, we formulate key-learnings from the process that can inform future research in HCI working on the intersection of AI and ethics.
+2026_conceptualising_initial_design: 'Providing guidance is frequently referenced as a key capability of digital health interventions targeting physical activity, yet the term remains poorly defined and
+  inconsistently applied. Existing work often conflates guidance with related constructs such as personalisation, feedback, or persuasion, limiting both theoretical clarity and design progress. This paper
+  conceptualizes an initial design space of guidance in the context of digital physical activity support. We define guidance for physical activity as situated, action-oriented support that scaffolds users’
+  embodied engagement in physical activity. Drawing on literature from behaviour change, human–computer interaction, embodied cognition, and digital health, we outline a design space that characterises
+  guidance along multiple dimensions: scope, purpose, timing, context, modality, embodiment, adaptivity, autonomy, and affective quality. By offering a structured vocabulary and conceptual foundation, this
+  work aims to support more coherent research, comparisons, and responsible design of digital health interventions featuring guidance for physical activity support.'
 2026_teamspirit: We explore how narrative-driven asymmetric VR experiences can support the development of teamwork-related knowledge, skills, and attitudes (KSAs), such as communication, coordination, trust,
   and reflexivity. We present the design and evaluation of a tablet-based VR training experience structured around spatial separation, tool asymmetry, and interdependent tasks that require verbal coordination.
   The experience was designed based on interviews with HR professionals and mapped to a framework of established KSAs. We conducted a co-located user study (N=16) that involved two consecutive collaborative
