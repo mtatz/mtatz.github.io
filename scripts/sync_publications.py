@@ -12,6 +12,7 @@
 
 Usage: python3 scripts/sync_publications.py [--dry-run] [--refresh-bibtex]
 """
+import datetime
 import difflib
 import json
 import os
@@ -89,17 +90,22 @@ def unpaywall(doi):
 
 def oa_pdf_url(doi, u):
     """Direct PDF of an open-access paper: any Unpaywall location with a PDF (publisher first),
-    else the ACM PDF address, else an arXiv version."""
+    else an arXiv version, else the ACM PDF address. The ACM address is only guessed for papers
+    published at least 30 days ago or with a publisher location: for brand-new papers ACM often
+    has the DOI page online before the full text."""
     locs = sorted(u.get("oa_locations") or [], key=lambda l: l.get("host_type") != "publisher")
     for l in locs:
         if l.get("url_for_pdf"):
             return l["url_for_pdf"]
-    if doi.lower().startswith("10.1145/"):
-        return "https://dl.acm.org/doi/pdf/" + doi
     for l in locs:
         m = re.search(r"10\.48550/arxiv\.(\d{4}\.\d{4,5})", l.get("url") or "", re.I)
         if m:
             return "https://arxiv.org/pdf/" + m.group(1)
+    if doi.lower().startswith("10.1145/"):
+        published = u.get("published_date") or ""
+        old_enough = bool(published) and (datetime.date.today() - datetime.date.fromisoformat(published[:10])).days >= 30
+        if old_enough or any(l.get("host_type") == "publisher" for l in locs):
+            return "https://dl.acm.org/doi/pdf/" + doi
     return None
 
 

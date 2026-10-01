@@ -11,7 +11,7 @@
   doi: 10.1145/3817040
   open_access: true
   image: papers/2026_teamspirit.webp
-  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3817040
+  oa_pdf: https://arxiv.org/pdf/2605.03127
 - id: 2026_ismar_magnification_lenses
   title: Magnification Lenses for Small-Scale Augmented Reality Instructions
   authors: Lucchas Ribeiro Skreinig, Denis Kalkofen, David Ritter, Peter Mohr, Markus Tatzgern, Dieter Schmalstieg, Ana Stanescu
@@ -37,7 +37,6 @@
   badge: NordiCHI
   doi: 10.1145/3829807.3829863
   open_access: true
-  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3829807.3829863
 - id: 2026_nordichi_ai_ethics
   title: 'Ethics and AI: Designing an Interactive Self-Assessment Tool for Ethical Implementation of AI-enabled Projects'
   authors: Faith Young, Anna Lienbacher, Janne Mascha Beuthel, Erich Prem, Clemens Havas, Markus Tatzgern
@@ -46,7 +45,6 @@
   badge: NordiCHI
   doi: 10.1145/3829807.3829864
   open_access: true
-  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3829807.3829864
 - id: 2026_nordichi_guidance
   title: Conceptualising an Initial Design Space for Guidance in Digital Physical Activity Support
   authors: Faith Young, Markus Tatzgern, Alexander Meschtscherjakov, Jan David Smeddinck
