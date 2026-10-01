@@ -2,28 +2,6 @@
 # Fields: id, title, authors, venue, year, badge (required); image, doi, pdf, youtube (video ID), talk (video ID of talk recording), code (repository URL), award, url,
 # open_access, oa_pdf (optional; the last two are filled by the sync script from Unpaywall).
 # Images and PDFs live in /papers/. Entries are added by scripts/sync_publications.py (ORCID) or by hand.
-- id: 2026_everyday_arctivities_wild
-  title: 'Everyday ARctivities in-the-Wild: Insights from a Farmers Market Field Study'
-  authors: Helen Stefanidi, Jan-Hendrik Sünderkamp, Markus Tatzgern, Alina Itzlinger, Alexander Meschtscherjakov
-  venue: Proceedings of the 14th Nordic Conference on Human-Computer Interaction
-  year: 2026
-  doi: 10.1145/3829807.3829863
-  open_access: true
-  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3829807.3829863
-- id: 2026_ethics_designing_interactive
-  title: 'Ethics and AI: Designing an Interactive Self-Assessment Tool for Ethical Implementation of AI-enabled Projects'
-  authors: Faith Young, Anna Lienbacher, Janne Mascha Beuthel, Erich Prem, Clemens Havas, Markus Tatzgern
-  venue: Proceedings of the 14th Nordic Conference on Human-Computer Interaction
-  year: 2026
-  doi: 10.1145/3829807.3829864
-  open_access: true
-  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3829807.3829864
-- id: 2026_conceptualising_initial_design
-  title: Conceptualising an Initial Design Space for Guidance in Digital Physical Activity Support
-  authors: Faith Young, Markus Tatzgern, Alexander Meschtscherjakov, Jan David Smeddinck
-  venue: Adjunct Proceedings of the 14th Nordic Conference on Human-Computer Interaction
-  year: 2026
-  doi: 10.1145/3821402.3830134
 - id: 2026_teamspirit
   title: Where's the Team Spirit? An Exploratory Study on Team Development Through Co-located Tablet-Based VR
   authors: Irina Paraschivoiu, Thomas Layer-Wagner, Klaus Neundlinger, Simone Rack, Markus Tatzgern
@@ -51,6 +29,31 @@
   badge: ISMAR Poster
   image: papers/2026_ismar_action_summaries.webp
   pdf: https://immersive-technology-lab.github.io/projects/actionsummaries/assets/ribeiroskreinig_ismara26_poster.pdf
+- id: 2026_nordichi_arctivities
+  title: 'Everyday ARctivities in-the-Wild: Insights from a Farmers Market Field Study'
+  authors: Helen Stefanidi, Jan-Hendrik Sünderkamp, Markus Tatzgern, Alina Itzlinger, Alexander Meschtscherjakov
+  venue: Nordic Conference on Human-Computer Interaction (NordiCHI)
+  year: 2026
+  badge: NordiCHI
+  doi: 10.1145/3829807.3829863
+  open_access: true
+  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3829807.3829863
+- id: 2026_nordichi_ai_ethics
+  title: 'Ethics and AI: Designing an Interactive Self-Assessment Tool for Ethical Implementation of AI-enabled Projects'
+  authors: Faith Young, Anna Lienbacher, Janne Mascha Beuthel, Erich Prem, Clemens Havas, Markus Tatzgern
+  venue: Nordic Conference on Human-Computer Interaction (NordiCHI)
+  year: 2026
+  badge: NordiCHI
+  doi: 10.1145/3829807.3829864
+  open_access: true
+  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3829807.3829864
+- id: 2026_nordichi_guidance
+  title: Conceptualising an Initial Design Space for Guidance in Digital Physical Activity Support
+  authors: Faith Young, Markus Tatzgern, Alexander Meschtscherjakov, Jan David Smeddinck
+  venue: Nordic Conference on Human-Computer Interaction Adjunct (NordiCHI Adjunct), Poster
+  year: 2026
+  badge: NordiCHI Poster
+  doi: 10.1145/3821402.3830134
 - id: 2026_arotm_chi_ea
   title: 'Next Steps for Augmented Reality On-the-Move: Challenges and Opportunities'
   authors: Helen Stefanidi, Vincent van Rheden, Linjia He, Michelle Adiwangsa, Jan-Hendrik Sünderkamp, Alina Itzlinger, Andrii Matviienko, Julie R. Williamson, Ian Oakley, Markus Tatzgern, Alexander Meschtscherjakov

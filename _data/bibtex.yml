@@ -1,5 +1,5 @@
 # BibTeX per publication id. Generated from Crossref; manual edits are kept.
-2026_everyday_arctivities_wild: |-
+2026_nordichi_arctivities: |-
   @inproceedings{stefanidi2026everyday,
     author = {Stefanidi, Helen and Sünderkamp, Jan-Hendrik and Tatzgern, Markus and Itzlinger, Alina and Meschtscherjakov, Alexander},
     title = {Everyday {ARctivities} {in-the-Wild}: Insights from a Farmers Market Field Study},
@@ -14,7 +14,7 @@
     doi = {10.1145/3829807.3829863},
     url = {https://doi.org/10.1145/3829807.3829863}
   }
-2026_ethics_designing_interactive: |-
+2026_nordichi_ai_ethics: |-
   @inproceedings{young2026ethics,
     author = {Young, Faith and Lienbacher, Anna and Beuthel, Janne Mascha and Prem, Erich and Havas, Clemens and Tatzgern, Markus},
     title = {Ethics and {AI}: Designing an Interactive {Self-Assessment} Tool for Ethical Implementation of {AI-enabled} Projects},
@@ -29,7 +29,7 @@
     doi = {10.1145/3829807.3829864},
     url = {https://doi.org/10.1145/3829807.3829864}
   }
-2026_conceptualising_initial_design: |-
+2026_nordichi_guidance: |-
   @inproceedings{young2026conceptualising,
     author = {Young, Faith and Tatzgern, Markus and Meschtscherjakov, Alexander and Smeddinck, Jan David},
     title = {Conceptualising an Initial Design Space for Guidance in Digital Physical Activity Support},
