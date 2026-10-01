@@ -22,7 +22,8 @@ Single-page Jekyll site, deployed to GitHub Pages (custom domain markustatzgern.
 - `_layouts/default.html` – head with Open Graph tags and schema.org Person JSON-LD; update `jobTitle`/`affiliation` there when the position changes.
 - `scripts/sync_publications.py` – adds new ORCID works (metadata via Crossref), links matching videos
   from the YouTube channel `mtatzgern` and the playlists in `_config.yml` (`youtube_playlists`; needed for unlisted videos), marks open-access papers via Unpaywall, and writes missing BibTeX and abstracts.
-  Runs weekly via `.github/workflows/sync-publications.yml` and opens a PR. Reports missing BibTeX fields.
+  No schedule: run it locally, or manually via `.github/workflows/sync-publications.yml` (opens a PR). Reports missing BibTeX fields.
+  Always curate its output before merging: normalize venue, set badge and a readable id, check type (paper/poster/demo) and order.
 - `scripts/optimize_images.py papers/<file>` – converts a new teaser image to 800 px WebP and updates the data file.
 
 ## Publication entry format
