@@ -10,6 +10,7 @@ Single-page Jekyll site, deployed to GitHub Pages (custom domain markustatzgern.
 - `_data/theses.yml`, `_data/patents.yml`, `_data/links.yml` – other sections and sidebar links.
 - `_data/publications_ignore.yml` – ORCID DOIs that must not be added to the site.
 - `_data/news.yml` – news items, newest first; one line each, Markdown links allowed, `date: YYYY-MM`.
+- `_data/jobs.yml` – open positions, shown as a box below the profile text (title, unit, closes, text, url). Remove entries after the closing date; with no entries the box disappears.
 - `_data/bibtex.yml` – BibTeX per publication id (Cite button). Generated from Crossref by the sync
   script; hand edits are kept. Entries without Crossref record (DataCite DOIs, no DOI) were completed by hand.
 - `_data/abstracts.yml` – abstract per publication id (Abstract button). Filled by the sync script from Crossref,

@@ -115,11 +115,15 @@ h3.year { font-size: 1.3rem; color: var(--muted); margin: 1.8rem 0 .6rem; border
 .plain { padding-left: 1.2rem; }
 .plain li { margin-bottom: .5rem; }
 
-.hiring { margin-top: 1rem; padding: .6rem .8rem; border: 1px solid var(--accent); border-left-width: 4px; border-radius: 3px; }
+.hiring { margin-top: 1.6rem; padding: 1rem 1.2rem; border: 1px solid var(--accent); border-left-width: 5px; border-radius: 4px; }
 .hiring p { margin: 0; }
-.hiring-label { font-family: Oswald, sans-serif; text-transform: uppercase; letter-spacing: .05em; font-size: .8rem; color: var(--accent); }
-.hiring .hiring-title { font-weight: 600; line-height: 1.3; margin-top: .15rem; }
-.hiring .hiring-meta { color: var(--muted); font-size: .85rem; margin-top: .15rem; }
+.hiring-label { font-family: Oswald, sans-serif; text-transform: uppercase; letter-spacing: .05em; font-size: .85rem; color: var(--accent); }
+.hiring .hiring-title { font-family: Oswald, "Arial Narrow", sans-serif; font-size: 1.45rem; font-weight: 500; line-height: 1.2; margin-top: .2rem; }
+.hiring .hiring-meta { color: var(--muted); margin-top: .1rem; }
+.hiring .hiring-text { margin-top: .6rem; }
+.hiring .hiring-action { margin-top: .8rem; }
+.hiring-button { display: inline-block; padding: .35rem .9rem; border-radius: 3px; background: var(--accent); color: var(--bg); font-weight: 600; }
+.hiring-button:hover { text-decoration: none; opacity: .9; }
 
 footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 2rem 16px; }
 
@@ -127,7 +131,6 @@ footer { text-align: center; color: var(--muted); font-size: .85rem; padding: 2r
   .profile { grid-template-columns: 1fr; gap: 1rem; }
   .profile-side { display: grid; grid-template-columns: 140px 1fr; gap: 1rem; align-items: start; }
   .profile-links { margin: 0; }
-  .hiring { grid-column: 1 / -1; margin-top: 0; }
   .topbar nav { gap: 1.1rem; font-size: .95rem; }
   .pub { grid-template-columns: 96px 1fr; gap: .8rem; }
   .news li { grid-template-columns: 1fr; gap: 0; }

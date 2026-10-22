@@ -9,15 +9,6 @@ layout: default
       <li><a href="{{ l.url }}">{{ l.name }}</a></li>
       {%- endfor %}
     </ul>
-    {%- if site.data.jobs and site.data.jobs.size > 0 %}
-    <aside class="hiring" aria-label="Open positions">
-      <p class="hiring-label">Open position</p>
-      {%- for j in site.data.jobs %}
-      <p class="hiring-title"><a href="{{ j.url }}">{{ j.title }}</a></p>
-      <p class="hiring-meta">{{ j.unit }} &middot; closes {{ j.closes }}</p>
-      {%- endfor %}
-    </aside>
-    {%- endif %}
   </div>
   <div class="profile-main">
     <h1>Markus Tatzgern</h1>
@@ -30,6 +21,17 @@ layout: default
     <p>I received my M.S. and Ph.D. with highest distinction from <a href="https://www.tugraz.at/">Graz University of Technology</a>, where I also worked as a researcher at the Christian Doppler Laboratory for Handheld Augmented Reality. My work has been published at top-tier venues including ACM CHI, IEEE ISMAR, IEEE VR, and IEEE TVCG, and has resulted in several patents on augmented reality visualization. My research has been recognized with multiple honorable mention awards.</p>
 
     <p>I contribute actively to the scientific community as Program Committee member and reviewer, and served as Science &amp; Technology Program Chair of IEEE ISMAR 2024 and Papers Chair of IEEE ISMAR 2025. I am Associate Editor of IEEE TVCG and currently serve as Treasurer of ACM SIGCHI Austria. Beyond academia, I am committed to outreach, engaging with industry, media, and the public to advance understanding and adoption of immersive technologies.</p>
+    {%- if site.data.jobs and site.data.jobs.size > 0 %}
+    {%- for j in site.data.jobs %}
+    <aside class="hiring" aria-label="Open position">
+      <p class="hiring-label">Open position &middot; closes {{ j.closes }}</p>
+      <p class="hiring-title"><a href="{{ j.url }}">{{ j.title }}</a></p>
+      <p class="hiring-meta">{{ j.unit }}</p>
+      <p class="hiring-text">{{ j.text }}</p>
+      <p class="hiring-action"><a class="hiring-button" href="{{ j.url }}">Job details and application</a></p>
+    </aside>
+    {%- endfor %}
+    {%- endif %}
   </div>
 </section>
 
