@@ -9,6 +9,15 @@ layout: default
       <li><a href="{{ l.url }}">{{ l.name }}</a></li>
       {%- endfor %}
     </ul>
+    {%- if site.data.jobs and site.data.jobs.size > 0 %}
+    <aside class="hiring" aria-label="Open positions">
+      <p class="hiring-label">Open position</p>
+      {%- for j in site.data.jobs %}
+      <p class="hiring-title"><a href="{{ j.url }}">{{ j.title }}</a></p>
+      <p class="hiring-meta">{{ j.unit }} &middot; closes {{ j.closes }}</p>
+      {%- endfor %}
+    </aside>
+    {%- endif %}
   </div>
   <div class="profile-main">
     <h1>Markus Tatzgern</h1>
