@@ -2,6 +2,15 @@
 # Fields: id, title, authors, venue, year, badge (required); image, doi, pdf, youtube (video ID), talk (video ID of talk recording), code (repository URL), award, url,
 # open_access, oa_pdf (optional; the last two are filled by the sync script from Unpaywall).
 # Images and PDFs live in /papers/. Entries are added by scripts/sync_publications.py (ORCID) or by hand.
+- id: 2026_sportshci_gesturegoggles
+  title: 'GestureGoggles: Exploring Facial Gestures for Truly Mobile Interaction while Running'
+  authors: Vincent van Rheden, Jan-Hendrik Sünderkamp, Helen Stefanidi, Markus Tatzgern, Alexander Meschtscherjakov
+  venue: Companion Proceedings of the Annual Conference on Sports and Human-Computer Interaction (SportsHCI Companion)
+  year: 2026
+  badge: SportsHCI
+  doi: 10.1145/3801727.3844938
+  open_access: true
+  oa_pdf: https://dl.acm.org/doi/pdf/10.1145/3801727.3844938
 - id: 2026_teamspirit
   title: Where's the Team Spirit? An Exploratory Study on Team Development Through Co-located Tablet-Based VR
   authors: Irina Paraschivoiu, Thomas Layer-Wagner, Klaus Neundlinger, Simone Rack, Markus Tatzgern
@@ -19,6 +28,7 @@
   year: 2026
   badge: ISMAR
   image: papers/2026_ismar_magnification_lenses.webp
+  doi: 10.1109/ISMAR70079.2026.00049
   pdf: https://immersive-technology-lab.github.io/projects/smallparts/assets/ribeiroskreinig_ismar26_paper.pdf
   youtube: mgENXngqFyA
 - id: 2026_ismar_action_summaries
