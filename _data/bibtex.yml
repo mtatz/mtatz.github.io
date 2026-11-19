@@ -79,11 +79,13 @@
     author = {Skreinig, Lucchas Ribeiro and Kalkofen, Denis and Ritter, David and Mohr, Peter and Tatzgern, Markus and Schmalstieg, Dieter and Stanescu, Ana},
     title = {Magnification Lenses for {Small-Scale} Augmented Reality Instructions},
     booktitle = {Proceedings of the IEEE International Symposium on Mixed and Augmented Reality (ISMAR)},
+    pages = {359--369},
     year = {2026},
+    month = oct,
     publisher = {IEEE},
     location = {Bari, Italy},
-    url = {https://immersive-technology-lab.github.io/projects/smallparts/assets/ribeiroskreinig_ismar26_paper.pdf},
-    note = {To appear}
+    doi = {10.1109/ISMAR70079.2026.00049},
+    url = {https://doi.org/10.1109/ISMAR70079.2026.00049}
   }
 2026_ismar_action_summaries: |-
   @inproceedings{skreinig2026augmented,
