@@ -1,4 +1,9 @@
 # Abstract per publication id. From Crossref or OpenAlex, or copied from the PDF; manual edits are kept.
+2026_sportshci_gesturegoggles: Technology has become an integral aspect of the running experience. Common devices, such as smartphones, smartwatches, and fitness trackers are widely employed. While particularly
+  designed to be portable, due their small interfaces and touch screens, the interactions often necessitate slowing down or forcing the user to "stop-to-interact" for effective use. We conducted a small-scale
+  workshop to identify and understand the use of facial gestures while running. Additionally, participants mapped possible facial gestures to commonly used functionalities while running. Based on this workshop
+  we developed GestureGoggles, a Meta Quest Pro-based concept, leveraging face gestures such as winking, eyebrow raising, mouth movement and tongue protrusion. For demonstration purposes, we mapped these
+  gestures to a music player functionality. The utilization of facial gestures show a new direction in the design for truly mobile interactions, aimed to enhance flow and joy in running.
 2026_nordichi_arctivities: 'Augmented Reality (AR) Head-Mounted Displays (HMD) are often envisioned as future replacements for smartphones in everyday tasks. Understanding their performance in realistic
   settings is crucial for assessing their potential and limitations. We conducted a within-subject field study (n = 12) where participants completed a shopping task at a crowded outdoor farmers market,
   utilizing a shopping list app and three interaction options: a smartphone and two AR interactions (hand- and head-anchored). Our results indicate that the smartphone outperformed both AR HMD conditions

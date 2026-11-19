@@ -1,4 +1,19 @@
 # BibTeX per publication id. Generated from Crossref; manual edits are kept.
+2026_sportshci_gesturegoggles: |-
+  @inproceedings{vanrheden2026gesturegoggles,
+    author = {van Rheden, Vincent and Sünderkamp, Jan-Hendrik and Stefanidi, Helen and Tatzgern, Markus and Meschtscherjakov, Alexander},
+    title = {{GestureGoggles}: Exploring Facial Gestures for Truly Mobile Interaction while Running},
+    booktitle = {Companion Proceedings of the Second Annual Conference on Sports and Human-Computer Interaction},
+    series = {SportsHCI 2026},
+    pages = {1--6},
+    year = {2026},
+    month = nov,
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    location = {Saarbrücken, Germany},
+    doi = {10.1145/3801727.3844938},
+    url = {https://doi.org/10.1145/3801727.3844938}
+  }
 2026_nordichi_arctivities: |-
   @inproceedings{stefanidi2026everyday,
     author = {Stefanidi, Helen and Sünderkamp, Jan-Hendrik and Tatzgern, Markus and Itzlinger, Alina and Meschtscherjakov, Alexander},
