@@ -1,4 +1,6 @@
 # News items, newest first. One line each; `text` is Markdown (links allowed). `date` is YYYY-MM.
+- date: 2026-11
+  text: "We are hiring: [Assistant Professor in Embodied Interaction Design](https://workwithus.warwick.ac.uk/job/COVENTRY-Assistant-Professor-in-Embodied-Interaction-Design-CV4-7AL/1459287433/) and [Assistant Professor in Physical Computing](https://workwithus.warwick.ac.uk/job/COVENTRY-Assistant-Professor-in-Physical-Computing-CV4-7AL/1459295433/) at WMG and the Faculty of Arts, University of Warwick, funded by the Global Talent Fund. Closing date: 31 December 2026."
 - date: 2026-10
   text: "[Closed] We were hiring: [Assistant Professor in Extended Reality](https://workwithus.warwick.ac.uk/job/COVENTRY-Assistant-Professor-in-Extended-Reality-CV4-7AL/1448508233/) at WMG, University of Warwick, funded by the Global Talent Fund. Closing date: 1 November 2026."
 - date: 2026-10
